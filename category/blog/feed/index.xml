@@ -1,0 +1,1690 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Introducción a la seguridad informática</title>
+	<atom:link href="/category/blog/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Tienda online de componentes electrónicos</description>
+	<lastBuildDate>Thu, 31 Aug 2023 02:42:07 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2023/08/cropped-LOGO-2-1-32x32.png</url>
+	<title>Introducción a la seguridad informática</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">222906673</site>	<item>
+		<title>CVE-2023-35078: Evasión remota de autenticación en Ivanti EPMM API</title>
+		<link>/cve-2023-35078-evasion-remota-de-autenticacion-en-ivanti-epmm-api/</link>
+					<comments>/cve-2023-35078-evasion-remota-de-autenticacion-en-ivanti-epmm-api/#respond</comments>
+		
+		<dc:creator><![CDATA[oyshopadmin]]></dc:creator>
+		<pubDate>Thu, 31 Aug 2023 02:30:41 +0000</pubDate>
+				<category><![CDATA[Introducción a la seguridad informática]]></category>
+		<guid isPermaLink="false">/?p=948</guid>
+
+					<description><![CDATA[CVE-2023-35078 es una vulnerabilidad crítica que permite acceder a funcionalidades restringidas del software de gestión móvil Ivanti Una nueva&#160;vulnerabilidad crítica&#160;ha sido descubierta&#160;en Ivanti Endpoint Manager Mobile (EPMM), anteriormente conocido como MobileIron Core. Esta vulnerabilidad, identificada como&#160;CVE-2023-35078, afecta a todas las versiones soportadas, incluyendo las Versiones 11.10, 11.9 y 11.8. Las versiones anteriores también se encuentran &#8230;<p class="read-more"> <a class="" href="/cve-2023-35078-evasion-remota-de-autenticacion-en-ivanti-epmm-api/"> <span class="screen-reader-text">CVE-2023-35078: Evasión remota de autenticación en Ivanti EPMM API</span> Leer más &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[
+<blockquote class="wp-block-quote">
+<p>CVE-2023-35078 es una vulnerabilidad crítica que permite acceder a funcionalidades restringidas del software de gestión móvil Ivanti</p>
+</blockquote>
+
+
+
+<p>Una nueva&nbsp;<strong>vulnerabilidad crítica</strong>&nbsp;<a href="https://nvd.nist.gov/vuln/detail/CVE-2023-35078" target="_blank" rel="noreferrer noopener">ha sido descubierta</a>&nbsp;en Ivanti Endpoint Manager Mobile (EPMM), anteriormente conocido como MobileIron Core. Esta vulnerabilidad, identificada como&nbsp;<strong>CVE-2023-35078</strong>, afecta a todas las versiones soportadas, incluyendo las Versiones 11.10, 11.9 y 11.8. Las versiones anteriores también se encuentran en riesgo.</p>
+
+
+
+<p>Ivanti Endpoint Manager Mobile (Ivanti EPMM) es un&nbsp;<strong>software de gestión móvil</strong>&nbsp;que permite a las empresas gestionar los dispositivos móviles, aplicaciones y contenidos.</p>
+
+
+
+<p><strong>CVE-2023-35078 es una vulnerabilidad de evasión de autenticación en Ivanti EPMM</strong>&nbsp;que permite que usuarios no autorizados accedan a funcionalidades o recursos restringidos de la aplicación sin la debida autenticación. Esta vulnerabilidad está clasificada como crítica y ha sido calificada con la&nbsp;<strong>puntuación máxima de 10 respecto a la escala CVSS</strong>.</p>
+
+
+
+<h2 class="wp-block-heading">Características principales</h2>
+
+
+
+<p>A continuación, se recogen las características principales de la&nbsp;<strong>vulnerabilidad CVE-2023-35078</strong>:</p>
+
+
+
+<ul>
+<li><strong>Identificador CVE</strong>: CVE-2023-35078</li>
+
+
+
+<li><strong>Valor CVSS</strong>: 10.0 (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H)</li>
+
+
+
+<li><strong>Fecha de publicación</strong>: 25/07/2023</li>
+
+
+
+<li><strong>Software afectado</strong>: Ivanti Endpoint Manager Mobile (EPMM)</li>
+
+
+
+<li><strong>Versiones afectadas</strong>:
+<ul>
+<li>Ivanti Endpoint Manager Mobile (Core) – 11.0.0.0, 11.10.0.0, 11.4.1.0, 11.5.0.0, 11.6.0.0, 11.7, 11.7.0.0, 11.8.0.0, 11.9.0.0, 11.9.0.1</li>
+
+
+
+<li>Access – r43, r45, R55</li>
+
+
+
+<li>Cloud – R87, R90, R91</li>
+
+
+
+<li>Ivanti Neurons for MDM (Cloud) – R91</li>
+
+
+
+<li>Sentry – 9.13.0.0</li>
+
+
+
+<li>Connect-Secure – 9.1Rx</li>
+
+
+
+<li>Endpoint Manager – Endpoint Security 2022.1, Endpoint Manager 2019, Endpoint Manager 2020.1, Endpoint Manager 2021.1, Endpoint Manager 2022</li>
+
+
+
+<li>Endpoint Security – Endpoint Security 8.6.0</li>
+
+
+
+<li>Security Controls – Security Controls 2023.1</li>
+</ul>
+</li>
+</ul>
+
+
+
+<p>Si esta vulnerabilidad es explotada con éxito, un actor remoto no autorizado podría potencialmente&nbsp;<strong>acceder a la información de identificación personal de los usuarios</strong>&nbsp;y&nbsp;<strong>realizar cambios limitados en el servidor</strong>.</p>
+
+
+
+<p>Es importante destacar que Ivanti tiene conocimiento de que&nbsp;<strong>ya se ha estado produciendo una explotación activa de esta vulnerabilidad</strong>. Por ello, tanto Ivanti como los organismos de ciberseguridad están trabajando en conjunto con clientes y socios para investigar y mitigar esta situación.</p>
+
+
+
+<h2 class="wp-block-heading">Medidas de mitigación</h2>
+
+
+
+<p>Ante esta amenaza, Ivanti ha actuado rápidamente y ha implementado&nbsp;<strong>un parche que ya está disponible para las versiones soportadas del producto</strong>. Si el sistema se encuentra en una versión compatible, se recomienda actualizar EPMM con las versiones de parches (11.8.1.1, 11.9.1.1 y 11.10.0.2) desde el portal del gestor del sistema.</p>
+
+
+
+<p>Para aquellos que estén utilizando versiones anteriores a 11.8.1.0, Ivanti recomienda encarecidamente que se actualice a la&nbsp;<a href="https://help.ivanti.com/mi/help/en_us/core/11.x/rn/CoreConnectorReleaseNotes/Support_and_compatibilit.htm" target="_blank" rel="noreferrer noopener">última versión de EPMM</a>&nbsp;para asegurarse de contar con las últimas correcciones de seguridad y estabilidad. Ante cualquier situación que impida actualizar, se proporciona una&nbsp;<a href="https://forums.ivanti.com/s/article/KB-Remote-unauthenticated-API-access-vulnerability-CVE-2023-35078?language=en_US" target="_blank" rel="noreferrer noopener">solución basada en RPM</a>&nbsp;para aplicar un parche temporal. No obstante, es fundamental actualizar a una versión de EPMM compatible que permita aplicar el parche de forma permanente.</p>
+
+
+
+<p><a href="https://www.tarlogic.com/wp-content/uploads/2023/08/CVE-2023-35078-2.webp"></a></p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img fetchpriority="high" decoding="async" src="/wp-content/uploads/2023/08/virus-malware-cyber-attack-and-internet-cyber-security-concept-photo-1024x558.jpg" alt="" class="wp-image-949" style="object-fit:cover;width:697px;height:474px" width="697" height="474"/></figure>
+
+
+
+<div style="height:31px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">Detección de la vulnerabilidad</h2>
+
+
+
+<p>Para saber si el sistema ha sido afectado, Ivanti proporciona una «Guía de Análisis» confidencial a través del soporte para clientes. Hasta ahora, solo se ha visto afectado un número limitado de clientes, e Ivanti está trabajando activamente con ellos para investigar. Si se necesita ayuda, es posible abrir un ticket de soporte o solicitar una llamada a través del&nbsp;<a href="https://nam11.safelinks.protection.outlook.com/?url=https%3A%2F%2Fapp.info.ivanti.com%2Fe%2Fer%3Futm_campaign%3D2023%2520Global%2520EN%2520Customer%2520EPMM%2520PSIRT%26utm_medium%3Demail%26utm_source%3DEloqua%26s%3D1800677%26lid%3D1323%26elqTrackId%3D31483C38632C0B4FE1D86FECF8D9A4BA%26elq%3D57ca806b6d544f92ad999a2be7dd0ae2%26elqaid%3D5511%26elqat%3D1&amp;data=05%7C01%7Cdenise.champion%40ivanti.com%7Ccd76c2b85841471c9c6308db8af6dbd8%7Ce5208e76dd1247f09541c9b45afaffe6%7C0%7C0%7C638256565076853465%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&amp;sdata=f9ObT%2FH3ZNokO8K3wMG4GfQRvE1lD8iayy7rhy0olCA%3D&amp;reserved=0" target="_blank" rel="noreferrer noopener">Success Portal</a>. Además, Ivanti ha manifestado que no ha sido comprometida debido a esta vulnerabilidad, afirmando que la empresa utiliza tecnología y socios de seguridad para prevenir y responder a actores de amenazas sofisticadas.</p>
+
+
+
+<p>Se ha hecho pública una prueba de concepto por parte de Vaishno Chaitanya, que está disponible en su repositorio personal de&nbsp;<a href="https://github.com/vchan-in/CVE-2023-35078-Exploit-POC" target="_blank" rel="noreferrer noopener">Github</a>. La prueba de concepto incluye un vídeo del exploit en funcionamiento contra una instancia EPMM vulnerable.</p>
+
+
+
+<h2 class="wp-block-heading">CVE-2023-35081</h2>
+
+
+
+<p>La agencia estadounidense&nbsp;<a href="https://www.cisa.gov/news-events/alerts/2023/07/28/ivanti-releases-security-updates-epmm-address-cve-2023-35081" target="_blank" rel="noreferrer noopener">CISA</a>&nbsp;agregó una segunda vulnerabilidad activamente explotada de Ivanti Endpoint Manager Mobile (EPMM) a su catálogo de vulnerabilidades conocidas explotadas.</p>
+
+
+
+<p>Esta vulnerabilidad, identificada como&nbsp;<strong>CVE-2023-35081</strong>, se unió a la vulnerabilidad&nbsp;<strong>CVE-2023-35078</strong>. CISA y el Centro Nacional de Ciberseguridad de Noruega (NCSC-NO) emitieron una advertencia conjunta en respuesta a la explotación activa de ambas vulnerabilidades. Ivanti lanzó otro parche para CVE-2023-35081 el 28 de julio de 2023. Se observó la posibilidad de encadenar las vulnerabilidades CVE-2023-35081 y CVE-2023-35078.</p>
+
+
+
+<p>La vulnerabilidad afecta a las versiones 11.10, 11.9 y 11.8, y versiones más antiguas también están en riesgo. Los atacantes pueden utilizar esta vulnerabilidad para&nbsp;<strong>eludir la autenticación y las restricciones ACL del administrador</strong>, lo que les permite ejecutar comandos del sistema en el dispositivo como usuario tomcat. La vulnerabilidad fue explotada en&nbsp;<strong>ataques recientes contra el sistema de TIC utilizado por doce ministerios del gobierno noruego</strong>.</p>
+
+
+
+<p>Cabe destacar que los&nbsp;<strong>sistemas de gestión de dispositivos móviles</strong>&nbsp;(MDM) son objetivos atractivos para los atacantes, ya que comprometerlos les otorga&nbsp;<strong>acceso elevado a miles de dispositivos móviles</strong>. CISA y NCSC-NO advierten sobre el riesgo potencial de explotación generalizada de las vulnerabilidades de Ivanti en redes gubernamentales y del sector privado.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/cve-2023-35078-evasion-remota-de-autenticacion-en-ivanti-epmm-api/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">948</post-id>	</item>
+		<item>
+		<title>DevSecOps: Producir software de forma rápida, continua y segura</title>
+		<link>/devsecops-producir-software-de-forma-rapida-continua-y-segura/</link>
+					<comments>/devsecops-producir-software-de-forma-rapida-continua-y-segura/#respond</comments>
+		
+		<dc:creator><![CDATA[oyshopadmin]]></dc:creator>
+		<pubDate>Thu, 31 Aug 2023 02:18:40 +0000</pubDate>
+				<category><![CDATA[Introducción a la seguridad informática]]></category>
+		<guid isPermaLink="false">/?p=936</guid>
+
+					<description><![CDATA[DevSecOps es un modelo que permite a las empresas que desarrollan software integrar la seguridad en todo su ciclo de vida ¿Cuándo se tiene que&#160;garantizar la seguridad de las aplicaciones de software? La respuesta puede parecer obvia, pero es importante remarcarla: siempre. O, dicho de otra forma, a lo largo de todo su ciclo de &#8230;<p class="read-more"> <a class="" href="/devsecops-producir-software-de-forma-rapida-continua-y-segura/"> <span class="screen-reader-text">DevSecOps: Producir software de forma rápida, continua y segura</span> Leer más &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[
+<blockquote class="wp-block-quote">
+<p>DevSecOps es un modelo que permite a las empresas que desarrollan software integrar la seguridad en todo su ciclo de vida</p>
+</blockquote>
+
+
+
+<p>¿Cuándo se tiene que&nbsp;<strong>garantizar la seguridad de las aplicaciones de software</strong>? La respuesta puede parecer obvia, pero es importante remarcarla: siempre. O, dicho de otra forma, a lo largo de todo su ciclo de vida, desde que se comienza a idear la solución hasta que se retira del mercado. Esto es lo que busca conseguir una práctica cada vez más relevante en el sector del desarrollo de software:&nbsp;<strong>DevSecOps</strong>.</p>
+
+
+
+<p>Según&nbsp;<a href="https://owasp.org/www-project-devsecops-guideline/latest/" target="_blank" rel="noreferrer noopener">OWASP</a>, un auténtico referente global en la elaboración de metodologías en materia de ciberseguridad, el objetivo del enfoque&nbsp;<strong>DevSecOps</strong>&nbsp;es «detectar problemas de seguridad (por diseño o vulnerabilidad de la aplicación) lo antes posible». A ello habría que añadir que DevSecOps pretende realizar esta&nbsp;<strong>detección inmediata en todas las fases de desarrollo de software</strong>.</p>
+
+
+
+<p>En este artículo, vamos a analizar la importancia de&nbsp;<strong>implementar DevSecOps</strong>&nbsp;y garantizar la seguridad de las aplicaciones de software a lo largo de todo su ciclo de vida, para prevenir incidentes de seguridad que amenacen la&nbsp;<strong>continuidad de negocio</strong>, menoscaben la reputación de una compañía y tengan consecuencias económicas y legales de gran envergadura.</p>
+
+
+
+<h2 class="wp-block-heading">1. ¿Qué se esconde detrás del concepto DevSecOps?</h2>
+
+
+
+<p>El concepto anglosajón&nbsp;<strong>DevSecOps</strong>&nbsp;es el resultado de sumar las palabras desarrollo (development), seguridad (security) y operaciones (operations). Precisamente, las prácticas DevSecOps abogan por aunar en un mismo marco de trabajo el&nbsp;<strong>desarrollo de software</strong>, las operaciones tecnológicas y la&nbsp;<strong>gestión de la infraestructura IT</strong>&nbsp;de una empresa, y la&nbsp;<strong>ciberseguridad</strong>&nbsp;de una organización. Este enfoque implica acabar con los compartimentos estancos y abordar la seguridad como una cuestión transversal al conjunto de una empresa y no como un ítem a cargo únicamente de un equipo de profesionales.</p>
+
+
+
+<p>Para ello, es fundamental&nbsp;<strong>crear flujos de trabajo en los que se combinen actividades de desarrollo, seguridad y operaciones</strong>&nbsp;y permitan obtener información sólida para tomar decisiones en materia de securización del software a lo largo de su ciclo de vida.</p>
+
+
+
+<p>Asimismo, también juega un papel fundamental la&nbsp;<strong>automatización de procesos y pruebas de seguridad</strong>, de cara a detectar vulnerabilidades de forma temprana desde las fases de desarrollo y despliegue, tratando de que nunca lleguen a entornos expuestos donde puedan ser explotadas por actores hostiles.</p>
+
+
+
+<p><strong>DevSecOps</strong>&nbsp;es un enfoque que se sustenta sobre la idea de que las empresas deben poner en marcha procesos optimizados que garanticen:</p>
+
+
+
+<ul>
+<li><strong>Seguridad del código</strong>, verificando que ofrece capacidades defensivas adecuadas y no incluye vulnerabilidades identificadas.</li>
+
+
+
+<li><strong>Seguridad de la cadena de suministro</strong>&nbsp;(librerías, contenedores…).</li>
+
+
+
+<li><strong>Protección en tiempo de ejecución</strong>, para detectar vulnerabilidades antes de que sean explotadas con éxito.</li>
+</ul>
+
+
+
+<p>Todos los profesionales involucrados en el desarrollo de software han de tener en cuenta las cuestiones de seguridad. Además, la seguridad no solo debe abordarse en las partes finales del desarrollo de software, sino desde el mismo momento en que comienza a planearse en su fase de diseño.</p>
+
+
+
+<h2 class="wp-block-heading">2. De DevOps a DevSecOps o cómo la seguridad emergió como un elemento vital de esta era</h2>
+
+
+
+<p>El concepto&nbsp;<strong>DevSecOps es la evolución natural de la metodología DevOps</strong>, empleada por los desarrolladores de software en los últimos años y que permite acelerar los ciclos de desarrollo y facilitar la entrega continua de soluciones.</p>
+
+
+
+<p>Mediante la incorporación del concepto de seguridad, se busca que la entrega de software a clientes no solo sea rápida, sino también segura.</p>
+
+
+
+<p>La metodología de trabajo DevOps busca poner en marcha&nbsp;<strong>procesos de integración, entrega e implementación continuas (CI/CD) de software</strong>, gracias al uso de herramientas para automatizar estos procesos. De tal manera que se crea un flujo conformado por prácticas de desarrollo y operaciones:</p>
+
+
+
+<ul>
+<li>Desarrollo:
+<ul>
+<li>Plan</li>
+
+
+
+<li>Código</li>
+
+
+
+<li>Construcción</li>
+
+
+
+<li>Test</li>
+</ul>
+</li>
+
+
+
+<li>Operaciones:
+<ul>
+<li>Entrega</li>
+
+
+
+<li>Despliegue</li>
+
+
+
+<li>Operar</li>
+
+
+
+<li>Monitorear</li>
+</ul>
+</li>
+</ul>
+
+
+
+<p>Así se optimiza la obtención de feedback y se reducen los plazos de entrega, detectando y<strong>&nbsp;corrigiendo problemas en fases tempranas del desarrollo</strong>.</p>
+
+
+
+<p>La metodología DevSecOps ha venido a incorporar el concepto de seguridad, dando paso a la inclusión de prácticas de seguridad a lo largo de todo el flujo de trabajo. Por ejemplo, a la hora de planear software, resulta conveniente&nbsp;<strong>realizar un modelado de amenazas</strong>. Mientras que en lo relativo al código, se ha de realizar un&nbsp;<strong>análisis del código estático</strong>&nbsp;en busca de prácticas inadecuadas de desarrollo que desemboquen en vulnerabilidades.</p>
+
+
+
+<p>De esta forma, si se opta por un enfoque&nbsp;<strong>DevSecOps</strong>, las empresas pueden&nbsp;<strong>producir software de calidad, de manera rápida, continua y segura</strong>.</p>
+
+
+
+<p><a href="https://www.tarlogic.com/wp-content/uploads/2023/08/DevSecOps-2.webp"></a></p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img decoding="async" src="/wp-content/uploads/2023/08/SEC-0423-News1-Feat-Slide1-1170x658-1-1024x576.jpg" alt="" class="wp-image-937" style="object-fit:cover;width:697px;height:474px" width="697" height="474"/></figure>
+
+
+
+<div style="height:27px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">3. Beneficios de DevSecOps</h2>
+
+
+
+<p>Todo lo que hemos ido desgranando en este artículo se materializa en una serie de beneficios vinculados a la implementación de una metodología DevSecOps en el seno de una organización.</p>
+
+
+
+<ol>
+<li><strong>Reducción de los tiempos de entrega y de los costes de producción de software</strong>. La clave del enfoque DevOps es agilizar el proceso de entrega de software, posibilitando el lanzamiento de más actualizaciones. A la vez, se logran reducir los gastos gracias a las automatizaciones y las mejoras de los flujos de trabajo entre los desarrolladores y los profesionales de los equipos de operaciones.</li>
+
+
+
+<li><strong>Desarrollo de software seguro</strong>&nbsp;desde el diseño, previniendo problemas y evitando costes adicionales ligados a la mitigación de vulnerabilidades y a las actuaciones de respuesta y recuperación en caso de que se produzcan incidentes de seguridad.</li>
+
+
+
+<li>Optimización de la capacidad de&nbsp;<strong>detección y mitigación de las vulnerabilidades</strong>, optando por un enfoque proactivo en la búsqueda de debilidades que puedan ser explotadas por los actores hostiles.</li>
+
+
+
+<li>Adopción de una&nbsp;<strong>cultura de seguridad</strong>&nbsp;que sea transversal a toda la compañía y reduzca la posibilidad de que se produzca un incidente de seguridad a raíz de malas prácticas de un profesional de la empresa.</li>
+
+
+
+<li><strong>Fortalecimiento de la seguridad de la cadena de suministro</strong>. Los ataques de cadena de suministro son una de las principales amenazas a las que se enfrentan las compañías que desarrollan software, pero también las empresas que emplean soluciones de terceros.</li>
+
+
+
+<li>Cumplir con un marco normativo cada vez más exigente en materia de ciberseguridad, sobre todo en lo relacionado con la protección de los datos y la&nbsp;<strong>resiliencia de las empresas</strong>&nbsp;que operan en sectores críticos como las finanzas, la energía o la salud.</li>
+</ol>
+
+
+
+<h2 class="wp-block-heading">4. La automatización como aliada a la hora de implementar un modelo DevSecOps</h2>
+
+
+
+<p>A lo largo de este artículo hemos hecho hincapié en uno de los aspectos esenciales de&nbsp;<strong>DevSecOps</strong>: la automatización.</p>
+
+
+
+<p>Automatizar procesos permite a los desarrolladores producir software en menos tiempo y con menos costes. Pero, además, en lo que respecta a la seguridad, las automatizaciones permiten introducir controles de seguridad y definir métricas desde el inicio del ciclo de vida del software y realizar una tarea de monitorización permanente en busca de problemas.</p>
+
+
+
+<p>Además, implementar un enfoque&nbsp;<strong>DevSecOps</strong>&nbsp;conlleva fortalecer la realización de pruebas de seguridad que permitan&nbsp;<strong>detectar y evaluar vulnerabilidades en todo el ciclo de vida del software</strong>&nbsp;y encontrar fallos de seguridad. Dependiendo de la fase del ciclo de vida y de los componentes analizados, se introducen distintos tipos de análisis: SAST, DAST, IAST, SCA, IaC, etc.</p>
+
+
+
+<p>Precisamente, hoy en día, los profesionales de ciberseguridad pueden emplear herramientas y soluciones para<strong>&nbsp;automatizar la búsqueda de vulnerabilidades</strong>&nbsp;integrándose en los repositorios de código y en los procesos de integración continua del software (CI/CD).</p>
+
+
+
+<p>En este sentido, es fundamental disponer de un&nbsp;<strong>Software Bill of Materials (SBOM) automatizado</strong>, es decir, un inventario de los elementos que se han empleado para desarrollar todos los componentes del software. Este inventario es imprescindible para analizar los elementos de terceros que se han usado en busca de vulnerabilidades, recurriendo a pruebas de seguridad como SCA y SAST.</p>
+
+
+
+<p>Todas las ventajas ligadas a la automatización de procesos, controles y pruebas se han de ver complementadas con un servicio de asesoramiento integral a cargo de especialistas en ciberseguridad que ayuden a las empresas a&nbsp;<strong>analizar y priorizar la mitigación de vulnerabilidades</strong>&nbsp;y fallos en el ciclo de vida del software.</p>
+
+
+
+<h2 class="wp-block-heading">5. La fórmula Tarlogic: Realizar pruebas de seguridad usando Checkmarx One y asesoramiento integral</h2>
+
+
+
+<p>Precisamente, la división de ciberseguridad de&nbsp;<strong>Tarlogic Security</strong>&nbsp;ofrece un servicio para&nbsp;<strong>implementar DevSecOps</strong>&nbsp;que combina la realización de pruebas de seguridad de aplicaciones para evaluar el software empresarial de forma rápida y eficiente, con un asesoramiento integral para priorizar y mitigar las vulnerabilidades y poner en marcha las actuaciones necesarias para fortalecer las capacidades defensivas.</p>
+
+
+
+<h3 class="wp-block-heading">5.1. Pruebas de seguridad de aplicaciones</h3>
+
+
+
+<p>Como señalamos en el apartado anterior,&nbsp;<strong>efectuar pruebas de seguridad de aplicaciones</strong>&nbsp;(AST, Application Security Testing) es esencial para detectar cualquier problema de seguridad desde las primeras fases del desarrollo.</p>
+
+
+
+<p>Por ello, Tarlogic ha suscrito un acuerdo con&nbsp;<strong>Checkmarx</strong>, empresa líder en la fabricación de tecnología para revisar aplicaciones, que permite a los profesionales de la compañía emplear la plataforma Checkmarx One para efectuar servicios de pruebas de seguridad de aplicaciones que incluyen:</p>
+
+
+
+<ul>
+<li><strong><a href="https://www.tarlogic.com/es/auditoria-codigo-fuente/" target="_blank" rel="noreferrer noopener">Análisis estático del código fuente</a></strong>&nbsp;(SAST), para analizar automáticamente el código fuente de una aplicación en busca de fallos o problemas.</li>
+
+
+
+<li><strong>Análisis de composición de software</strong>&nbsp;(SCA), de cara a detectar vulnerabilidades en los componentes de código abierto usados en un determinado software.</li>
+
+
+
+<li><strong>Seguridad de la cadena de suministro</strong>&nbsp;(SCS), una prueba que sirve para encontrar anomalías y prevenir los crecientes ataques de cadena de suministro.</li>
+
+
+
+<li><strong>Prueba de seguridad de aplicaciones dinámicas</strong>&nbsp;(DAST), centrada en encontrar vulnerabilidades desconocidas durante la ejecución del software.</li>
+
+
+
+<li><strong>Seguridad de APIs</strong>, mitigando los riesgos al eliminar las APIs fantasmas encontradas en el código fuente.</li>
+
+
+
+<li><strong>Infraestructure-as-code-Security</strong>&nbsp;(IaC), para evaluar la infraestructura IT de cara a subsanar configuraciones inseguras.</li>
+
+
+
+<li><strong>Seguridad de contendores</strong>, una prueba que permite analizar el estado de seguridad de los sistemas basados en contenedores.</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" src="/wp-content/uploads/2023/08/cybersecurity-plan-2023.png" alt="" class="wp-image-938" style="object-fit:cover;width:697px;height:474px" width="697" height="474"/></figure>
+
+
+
+<div style="height:28px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">5.2. Subsanar vulnerabilidades y reducir riesgos</h3>
+
+
+
+<p>La realización de estas pruebas de seguridad de forma continua para evaluar el software desde el diseño y a lo largo de su ciclo de vida permite a los profesionales de Tarlogic ayudar a las empresas a&nbsp;<strong>incrementar la protección de su software empresarial</strong>.</p>
+
+
+
+<p>¿Cómo? Ofreciendo un&nbsp;<strong>asesoramiento integral para evaluar y priorizar las vulnerabilidades</strong>&nbsp;de cara a mitigarlas teniendo en cuenta el riesgo de explotación, su nivel de criticidad para el modelo de negocio y el impacto que puede suponer un incidente de seguridad.</p>
+
+
+
+<p>De tal forma que la detección de fallos y problemas de seguridad da paso a una&nbsp;<strong>gestión eficiente de las vulnerabilidades</strong>&nbsp;para limitar el riesgo de sufrir un ciberataque e incrementar la resiliencia de una organización frente a las acciones de actores hostiles que buscan aprovecharse de debilidades del software para cumplir sus objetivos maliciosos: secuestrar o exfiltrar información confidencial, paralizar la actividad empresarial, menoscabar la reputación de la compañía…</p>
+
+
+
+<p>El&nbsp;<strong>modelo DevSecOps</strong>&nbsp;evidencia la importancia de disponer de herramientas avanzadas para&nbsp;<strong>monitorear la infraestructura IT de forma continua</strong>&nbsp;y detectar vulnerabilidades, así como la necesidad de contar con profesionales altamente especializados en la optimización de las capacidades defensivas y la lucha contra las ciberamenazas.</p>
+
+
+
+<h2 class="wp-block-heading">6. DevSecOps, un enfoque para conjugar desarrollo, negocio y seguridad</h2>
+
+
+
+<p>Si la instauración del modelo DevOps supuso poner fin a la era de los compartimentos estancos y crear flujos de trabajo e integración y despliegue continuos, pasar de este enfoque a&nbsp;<strong>DevSecOps</strong>&nbsp;es crucial para lograr combinar prácticas eficientes en el desarrollo de software, cumplir con los objetivos de negocio y&nbsp;<strong>garantizar la seguridad de la infraestructura IT</strong>&nbsp;de una organización.</p>
+
+
+
+<p>Frente a una concepción de la ciberseguridad como un elemento separado, DevSecOps aboga por situar a la seguridad en el corazón de la estrategia empresarial y ponerla en directa relación con el modelo de negocio de cada empresa. Todo ello, de forma continua y desde las fases iniciales de cualquier desarrollo de software.</p>
+
+
+
+<h3 class="wp-block-heading">6.1. OWASP y DevSecOps: Caminar hacia la madurez en la protección del software</h3>
+
+
+
+<p>Al inicio de este artículo, recurríamos a OWASP para definir la meta principal de un enfoque&nbsp;<strong>DevSecOps</strong>. Pues bien, esta fundación, a la vanguardia en la elaboración de metodologías y documentación al servicio de las empresas y los profesionales de ciberseguridad, está produciendo material de gran valor para ayudar a las compañías a implementar este enfoque en sus&nbsp;<strong>procesos de desarrollo de software</strong>:</p>
+
+
+
+<ul>
+<li>Una guía para implementar DevSecOps en el seno de una organización, securizar su proceso de desarrollo e instaurar una cultura de seguridad.</li>
+
+
+
+<li><a href="https://owasp.org/www-project-devsecops-verification-standard/" target="_blank" rel="noreferrer noopener">DevSecOps Verification Standard</a>&nbsp;(DSOVS), un marco de trabajo que sirve para definir los requerimientos de seguridad básicos que ha de cumplir una empresa que desarrolla software.</li>
+
+
+
+<li><a href="https://dsomm.owasp.org/" target="_blank" rel="noreferrer noopener">DevSecOps Maturity Model</a>&nbsp;(DSOMM), un framework que presenta las medidas de seguridad que se deben poner en marcha cuando se optar por una estrategia DevOps, de cara a anticiparse a los actores hostiles, cuyas tácticas, técnicas y procedimientos son cada vez más sofisticadas.</li>
+
+
+
+<li><a href="https://owaspsamm.org/" target="_blank" rel="noreferrer noopener">Software Assurance Maturity Model</a>&nbsp;(SAMM), un modelo que ayuda a las empresas y los expertos en ciberseguridad a analizar y mejorar el ciclo de vida de desarrollo seguro de software.</li>
+
+
+
+<li>Un futuro Top 10 de riesgos a tener en cuenta a la hora de implementar un modelo DevSecOps en una organización.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">6.2. Un cambio de paradigma para situar a la seguridad en el centro de la estrategia empresarial</h3>
+
+
+
+<p>En definitiva, el enfoque&nbsp;<strong>DevSecOps</strong>&nbsp;se ha abierto paso en el terreno del desarrollo de software porque permite a las compañías:</p>
+
+
+
+<ul>
+<li>Poner en relación los&nbsp;<strong>objetivos de negocio</strong>&nbsp;con las necesidades de seguridad.</li>
+
+
+
+<li>Desplegar flujos de trabajo en el que participen profesionales de múltiples departamentos.</li>
+
+
+
+<li>Incorporar a expertos en seguridad en el inicio del ciclo de vida del software y no solo cuando este ya ha sido desarrollado.</li>
+
+
+
+<li>Emplear las automatizaciones para mejorar el&nbsp;<strong>monitoreo del software</strong>&nbsp;y la búsqueda de vulnerabilidades.</li>
+
+
+
+<li>Instaurar una&nbsp;<strong>cultura de la seguridad</strong>.</li>
+
+
+
+<li>Enfrentarse con éxito a un panorama de amenazas cada vez más complejo y a ciberataques altamente sofisticados.</li>
+</ul>
+
+
+
+<p>¿Solo las grandes compañías pueden optar por un&nbsp;<strong>modelo DevSecOps</strong>? No, este enfoque es lo suficientemente abierto como para adaptarse a cualquier organización y la aparición de metodologías y frameworks como DSOMM y SAMM así lo evidencian.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/devsecops-producir-software-de-forma-rapida-continua-y-segura/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">936</post-id>	</item>
+		<item>
+		<title>Las 4 claves del Marco de Ciberseguridad del NIST v2</title>
+		<link>/las-4-claves-del-marco-de-ciberseguridad-del-nist-v2/</link>
+					<comments>/las-4-claves-del-marco-de-ciberseguridad-del-nist-v2/#respond</comments>
+		
+		<dc:creator><![CDATA[oyshopadmin]]></dc:creator>
+		<pubDate>Thu, 31 Aug 2023 02:06:38 +0000</pubDate>
+				<category><![CDATA[Introducción a la seguridad informática]]></category>
+		<guid isPermaLink="false">/?p=925</guid>
+
+					<description><![CDATA[El Marco de Ciberseguridad del NIST v2 pone el foco en la importancia de la gobernanza y la cadena de suministro a la hora de reducir los riesgos de seguridad A la velocidad de vértigo con la que se mueve el mundo hoy en día, en menos de una década pueden hacerse producido transformaciones de &#8230;<p class="read-more"> <a class="" href="/las-4-claves-del-marco-de-ciberseguridad-del-nist-v2/"> <span class="screen-reader-text">Las 4 claves del Marco de Ciberseguridad del NIST v2</span> Leer más &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[
+<blockquote class="wp-block-quote">
+<p>El Marco de Ciberseguridad del NIST v2 pone el foco en la importancia de la gobernanza y la cadena de suministro a la hora de reducir los riesgos de seguridad</p>
+</blockquote>
+
+
+
+<p>A la velocidad de vértigo con la que se mueve el mundo hoy en día, en menos de una década pueden hacerse producido transformaciones de enorme calado. Sobre todo, en un ámbito tan dinámico como el de la ciberseguridad. Por eso, el National Institute of Standards and Technology (<a href="https://csrc.nist.gov/pubs/cswp/29/the-nist-cybersecurity-framework-20/ipd" target="_blank" rel="noreferrer noopener">NIST</a>), una agencia gubernamental de Estados Unidos, acaba de hacer público el borrador de la&nbsp;<strong>versión 2 de su Marco de Ciberseguridad</strong>, que vio la luz en el año 2014.</p>
+
+
+
+<p>Durante los últimos nueve años, esta herramienta ha sido empleada por miles de compañías y expertos en ciberseguridad en todo el planeta para acometer con éxito la gestión de riesgos.</p>
+
+
+
+<p>El&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>&nbsp;tiene como misión adaptar esta herramienta de trabajo a los enormes cambios que se han producido en el panorama de amenazas durante los últimos años y ayudar, así, a las organizaciones de todo el mundo y de toda clase de sectores a&nbsp;<strong>mejorar sus capacidades defensivas</strong>, prevenir incidentes de seguridad y, en caso de que se produzcan, gestionarlos con éxito.</p>
+
+
+
+<p>En este artículo, vamos a desgranar las&nbsp;<strong>cuatro claves del Marco de Ciberseguridad del NIST v2</strong>, destacando las principales novedades incorporadas, sus características básicas y los diferentes usos que les pueden dar las compañías a la hora de gestionar los riesgos, mediante la puesta en marcha de&nbsp;<a href="https://www.tarlogic.com/es/servicios-ciberseguridad/" target="_blank" rel="noreferrer noopener"><strong>servicios de ciberseguridad avanzados</strong></a>.</p>
+
+
+
+<p>Actualmente, el borrador del framework se encuentra en la fase de exposición pública, de cara a que la comunidad de ciberseguridad pueda proponer algún cambio antes de la publicación de su versión final.</p>
+
+
+
+<h2 class="wp-block-heading">1. Principales novedades del Marco de Ciberseguridad del NIST v2</h2>
+
+
+
+<p>El principal aliciente para diseñar el&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>&nbsp;fue la constatación, por parte del instituto, de que la versión 1 de la herramienta estaba siendo usada no solo por las organizaciones para la que fue concebida, es decir, compañías de sectores críticos como la banca o la energía; sino que miles de empresas de una amplia variedad de sectores económicos recurrían al marco para acometer la&nbsp;<strong>gestión de los riesgos de ciberseguridad</strong>.</p>
+
+
+
+<p>Este hecho, junto con todas las transformaciones tecnológicas y el incremento de las vulnerabilidades, las ciberamenazas y los ataques, han llevado al NIST a realizar una revisión integral del framework para incrementar su usabilidad y adaptabilidad y contribuir a que la herramienta siga siendo una aliada clave para expertos en ciberseguridad, empresas e instituciones públicas.</p>
+
+
+
+<h3 class="wp-block-heading">1.1. Una herramienta multisectorial y global</h3>
+
+
+
+<p>Como consecuencia de lo que venimos de señalar, la primera novedad a destacar del&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>&nbsp;es que ha ampliado su enfoque:</p>
+
+
+
+<ol>
+<li>Ya no hace énfasis solo en los riesgos de seguridad de las infraestructuras críticas, sino que se tienen en cuenta a todo tipo de organizaciones, de cara a cubrir todos los sectores económicos. Lo cual es consecuente con el hecho de que los actores hostiles no solo atacan a compañías y administraciones de ámbitos especialmente críticos o sensibles, sino que toda clase de organización puede ser atacada.</li>
+
+
+
+<li>Aunque el NIST es una organización gubernamental de Estados Unidos, es consciente de su posición como referente metodológico global. Por ello, en el Marco de Ciberseguridad del NIST v2 no solo se incide en la necesidad de securizar las infraestructuras críticas estadounidenses. La herramienta está pensada, ahora, para ser de gran utilidad para empresas y administraciones de cualquier parte del planeta.</li>
+</ol>
+
+
+
+<h3 class="wp-block-heading">1.2. Poner en relación el Marco de Ciberseguridad con otros recursos</h3>
+
+
+
+<p>En el transcurso de la última década, el NIST ha desarrollado y publicado múltiples recursos para ayudar a los expertos en ciberseguridad y las organizaciones a afrontar los grandes desafíos que han ido surgiendo en materia de ciberseguridad.</p>
+
+
+
+<p>Por eso, a la hora de preparar la nueva versión del Marco de Ciberseguridad se ha procedido a una actualización de la herramienta a la luz del conocimiento generado en recursos como:</p>
+
+
+
+<ul>
+<li>El Marco de Privacidad.</li>
+
+
+
+<li>El Marco de&nbsp;<strong>Desarrollo Seguro de Software</strong>.</li>
+
+
+
+<li>La guía para gestionar los riesgos de la cadena de suministro.</li>
+
+
+
+<li>El Marco de&nbsp;<strong>gestión de los riesgos de la Inteligencia Artificial</strong>.</li>
+
+
+
+<li>Etc.</li>
+</ul>
+
+
+
+<p>Toda esta documentación fue el fruto de múltiples investigaciones para proporcionar herramientas con las que gestionar cuestiones capitales para la ciberseguridad como los ataques de cadena de suministro, la seguridad desde el diseño o los desafíos que trae consigo el auge de los sistemas de Inteligencia Artificial.</p>
+
+
+
+<p>El&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>&nbsp;se enriquece de todo este conocimiento para ofrecer a las compañías una aproximación integral a la gestión de riesgos.</p>
+
+
+
+<h3 class="wp-block-heading">1.3. Facilitar la implementación del framework</h3>
+
+
+
+<p>La razón de ser del Marco de Seguridad del NIST v2 es resultar útil para las compañías a la hora de poner coto a las amenazas y los riesgos. Por ello, se han introducido mejoras que persiguen facilitar la implementación del framework en el seno de las organizaciones:</p>
+
+
+
+<ul>
+<li>Se proporcionan ejemplos de implementación para&nbsp;<strong>conseguir los resultados de seguridad</strong>.</li>
+
+
+
+<li>Se ha profundizado en las orientaciones que figuran en la guía para ayudar a las empresas a elaborar sus perfiles y mejorar su implementación.</li>
+
+
+
+<li>Han sido incorporadas plantillas que ayudan a las empresas a crear sus perfiles y sus planes de acción, de cara a lograr los resultados de seguridad buscados.</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2023/08/NFPAONJ4XVHNFP4P5OWHRPL6YA-1024x576.png" alt="" class="wp-image-926" style="object-fit:cover;width:697px;height:474px" width="697" height="474"/></figure>
+
+
+
+<div style="height:34px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">1.4. Gobernanza de la ciberseguridad y gestión de la cadena de suministro</h3>
+
+
+
+<p>Una de las novedades más relevantes del&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>&nbsp;es la inclusión de una nueva función en su núcleo: gobernar, que cubre aspectos como:</p>
+
+
+
+<ul>
+<li>El contexto de la compañía.</li>
+
+
+
+<li>La&nbsp;<strong>gestión de riesgos de la cadena de suministro</strong>, que dispone de su propia categoría.</li>
+
+
+
+<li>Roles, responsabilidades y autoridades dentro de la organización.</li>
+
+
+
+<li>Políticas, procesos y procedimientos de seguridad.</li>
+
+
+
+<li>Supervisión de los&nbsp;<strong>programas de seguridad</strong>.</li>
+</ul>
+
+
+
+<p>A mayores, se explica cómo integrar el Marco de Ciberseguridad del NIST v2 con el Marco de Privacidad y con la guía de gestión del riesgo empresarial y se ha procedido a incorporar las mejores prácticas en materia de&nbsp;<strong>desarrollo seguro de software</strong>.</p>
+
+
+
+<p>Asimismo, se ha dotado de mayor protagonismo a las personas, procesos y tecnologías que intervienen en la aplicación del marco.</p>
+
+
+
+<h3 class="wp-block-heading">1.5. Clarificación de los niveles y los perfiles</h3>
+
+
+
+<p>Finalmente, también se han incorporado una serie de cambios que contribuyen a:</p>
+
+
+
+<ul>
+<li>Aclarar y sistematizar los niveles del&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>, centrándolos en tres aspectos clave: gobernanza, gestión de riesgos y cuestiones relacionadas con terceros como los proveedores IT.</li>
+
+
+
+<li>Destacar la importancia de la mejora continua a través de la creación de una nueva categoría en la función de identificación.</li>
+
+
+
+<li>Facilitar el desarrollo y actualización de los perfiles y los planes de acción de las compañías.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">2. Optimizar la gestión de los riesgos de ciberseguridad</h2>
+
+
+
+<p>Todas las novedades que venimos de resumir, están pensadas para garantizar no solo que el Marco de Ciberseguridad del NIST v2 se adapte a las características y necesidades de cualquier organización, sino también para poder acoger usos aún no previstos y para proseguir las tareas puestas en marcha por la versión original de la herramienta:</p>
+
+
+
+<ul>
+<li>Consolidar un lenguaje común en todo el mundo a la hora de hablar de ciberseguridad.</li>
+
+
+
+<li>Poner a disposición de las organizaciones una&nbsp;<strong>metodología sistematizada para gestionar los riesgos de seguridad</strong>.</li>
+
+
+
+<li>Facilitar la comunicación entre profesionales y equipos técnicos y no técnicos (por ejemplo, departamentos legales o gabinetes de comunicación).</li>
+
+
+
+<li>Proponer actuaciones que se pueden incorporar a las&nbsp;<strong>estrategias de ciberseguridad</strong>&nbsp;y adaptarse a las necesidades y objetivos de cada organización.</li>
+</ul>
+
+
+
+<p>El marco parte de la idea de que cada organización tiene sus propias características, necesidades, objetivos o recursos. De tal manera que cada compañía tiene que hacer frente a amenazas, vulnerabilidades y riesgos diferentes. Además, las peculiaridades y los requisitos normativos de cada sector también son distintos. Por ello, el&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>&nbsp;está pensado como una herramienta abierta y voluble, que propone una serie de resultados de seguridad, ordenados en funciones y categorías, como veremos en el siguiente apartado, para ayudar a cualquier compañía a:</p>
+
+
+
+<ul>
+<li><strong>Entender y evaluar</strong>. Comprender la postura de ciberseguridad de una organización, detectar brechas de seguridad y evaluar los progresos para eliminarlas. Además de alinear las cuestiones políticas, empresariales y tecnológicas para gestionar los riesgos de forma integral.</li>
+
+
+
+<li><strong>Priorizar oportunidades y acciones para reducir los riesgos</strong>, teniendo en cuenta los objetivos empresariales y los requisitos legales.</li>
+
+
+
+<li>Comunicarse interna y externamente sobre los riesgos, capacidades, necesidades y expectativas.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">3. Las 6 funciones esenciales del Marco de Ciberseguridad del NIST v2</h2>
+
+
+
+<p>Como apuntamos a la hora de desgranar las principales novedades del&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>, esta herramienta cuenta con un núcleo que se estructura en torno a seis grandes funciones de ciberseguridad que se desarrollan de forma continua y concurrente.</p>
+
+
+
+<p>A su vez, estas funciones se dividen en categorías y resultados de seguridad, denominados sub-categorías, para facilitar su implementación y contribuir a que las empresas aborden los riesgos de seguridad de forma integral. Finalmente, el framework incluye referencias metodológicas y buenas prácticas para ayudar a las empresas a lograr los resultados.</p>
+
+
+
+<p>El Marco de Ciberseguridad del NIST v2 no solo incorpora la función de gobernanza, sino que lleva a cabo una reorganización de las categorías y subcategorías de todas las funciones, con el objetivo de que resulten más claras, estén mejor sistematizadas y puedan ser implementadas y evaluadas con facilidad.</p>
+
+
+
+<h3 class="wp-block-heading">3.1. Gobernar</h3>
+
+
+
+<p>Esta función ocupa una posición central dentro del&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>, ya que gira en torno a la puesta en marcha y monitorización continua de la estrategia de gestión de riesgos de ciberseguridad, las expectativas y las&nbsp;<strong>políticas de seguridad</strong>. Los resultados vinculados a esta función sirven para determinar cómo se priorizan y logran los resultados de las otras cinco funciones.</p>
+
+
+
+<p>El Marco de Ciberseguridad del NIST v2 propone hasta 31 resultados que se pueden alcanzar en materia de gobernanza, estructurados en torno a seis grandes categorías:</p>
+
+
+
+<ul>
+<li>Contexto organizacional.</li>
+
+
+
+<li>Estrategia de gestión de los riesgos.</li>
+
+
+
+<li>Gestión de los riesgos de la cadena de suministro.</li>
+
+
+
+<li>Roles, responsabilidades y autoridades.</li>
+
+
+
+<li>Políticas, procesos y procedimientos.</li>
+
+
+
+<li>Supervisión de los resultados de las actividades de gestión de los riesgos, de cara a mejorar y ajustar la estrategia.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">3.2. Identificar</h3>
+
+
+
+<p>Está función está centrada en determinar cuáles son los actuales&nbsp;<strong>riesgos de ciberseguridad</strong>&nbsp;de una organización. Para ello, es imprescindible comprender todos los activos críticos de la compañía (datos, software, sistemas…), ponerlos en relación con los riesgos y gestionar los recursos de forma eficaz para priorizar tanto los activos como los riesgos.</p>
+
+
+
+<p>Las tres categorías que conforman la función de identificar agrupan 20 resultados y son:</p>
+
+
+
+<ul>
+<li>Gestión de los activos</li>
+
+
+
+<li>Evaluación de riesgos</li>
+
+
+
+<li>Mejora</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2023/08/cybersecurity-1024x543.jpg" alt="" class="wp-image-927" style="object-fit:cover;width:697px;height:474px" width="697" height="474"/></figure>
+
+
+
+<div style="height:31px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">3.3. Proteger</h3>
+
+
+
+<p>Para proteger los activos críticos es fundamental poner en marcha mecanismos y controles de seguridad que optimicen las capacidades defensivas y reduzcan la probabilidad de sufrir un incidente de seguridad. Entre los resultados incluidos en esta función se encuentran la gestión de las identidades, la autenticación y el control de acceso o la&nbsp;<strong>resiliencia de la infraestructura IT ante un ciberataque</strong>.</p>
+
+
+
+<p>Dentro de la función de proteger podemos encontrarnos con hasta cinco categorías, que agrupan a 23 resultados:</p>
+
+
+
+<ul>
+<li>Gestión de las identidades, la autenticación y el control de acceso</li>
+
+
+
+<li>Concienciación y formación de los profesionales</li>
+
+
+
+<li>Seguridad de los datos</li>
+
+
+
+<li>Seguridad de las plataformas</li>
+
+
+
+<li>Resiliencia de la infraestructura tecnológica</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">3.4. Detectar</h3>
+
+
+
+<p>Una función esencial de toda estrategia de seguridad es la&nbsp;<strong>detección de ataques</strong>. Para ello es fundamental contar con mecanismos para descubrir y analizar comportamientos anómalos,&nbsp;<strong>indicadores de compromiso</strong>&nbsp;y otros eventos que sirvan para identificar que se está sufriendo un incidente de seguridad.</p>
+
+
+
+<p>Los 11 resultados de la función detectar se estructuran en torno a dos categorías:</p>
+
+
+
+<ul>
+<li>Monitorización continua</li>
+
+
+
+<li>Análisis de eventos adversos</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">3.5. Responder</h3>
+
+
+
+<p>Además de detectar ataques e incidentes de seguridad es imprescindible disponer de las herramientas para responder frente a ellos y lograr contener su impacto en la compañía. En esta función se incluyen resultados como la&nbsp;<strong>mitigación de incidentes</strong>&nbsp;y la realización de informes sobre los mismos.</p>
+
+
+
+<p>La función de responder se articula en torno a 13 resultados divididos en cuatro categorías:</p>
+
+
+
+<ul>
+<li>Gestión de incidentes</li>
+
+
+
+<li>Análisis de incidentes</li>
+
+
+
+<li>Informes y comunicación de la respuesta a los incidentes</li>
+
+
+
+<li>Mitigación de los incidentes</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">3.6. Recuperar</h3>
+
+
+
+<p>La última función del&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>&nbsp;es la recuperación de la normalidad tras un incidente de seguridad.&nbsp;<strong>Restablecer los activos</strong>&nbsp;y las operaciones que se hayan visto afectados y posibilitar una comunicación fluida durante las labores de recuperación son dos aspectos clave de esta función.</p>
+
+
+
+<p>En esta función se contemplan ocho resultados distribuidos en dos categorías:</p>
+
+
+
+<ul>
+<li>Ejecución del plan de recuperación de incidentes</li>
+
+
+
+<li>Comunicación de la recuperación de incidentes</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">4. Cómo usar el Marco de Ciberseguridad del NIST v2</h2>
+
+
+
+<p>Hasta el momento hemos incidido en el hecho de que el&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>&nbsp;ha sido concebido como una herramienta abierta que puede adaptarse a las necesidades y objetivos de cualquier organización a la hora de gestionar los riesgos de seguridad. Asimismo, también hemos apuntado algunos conceptos que son cruciales a la hora de pasar de la teoría a la práctica y usar la herramienta, como los perfiles o los niveles.</p>
+
+
+
+<p>La guía del Marco de Ciberseguridad del NIST v2 profundiza en algunos usos de la herramienta que permiten abordar cuestiones de vital importancia como la fijación y consecución de los objetivos empresariales en materia de ciberseguridad o la gestión de la cadena de suministro.</p>
+
+
+
+<h3 class="wp-block-heading">4.1. Creación de perfiles</h3>
+
+
+
+<p>Para facilitar la aplicación del núcleo del&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>&nbsp;y alcanzar los&nbsp;<strong>resultados de seguridad</strong>, las empresas pueden confeccionar dos tipos de perfiles:</p>
+
+
+
+<ul>
+<li>El&nbsp;<strong>perfil actual de la compañía</strong>. Es decir, el conjunto de resultados que la organización ya está consiguiendo con su actual estrategia de seguridad.</li>
+
+
+
+<li>El&nbsp;<strong>perfil objetivo</strong>. Es decir, los resultados de seguridad que se desean alcanzar, teniendo en cuenta los objetivos empresariales, los recursos disponibles y los riesgos específicos a los que se enfrenta la organización. Mediante el perfil objetivo las empresas pueden anticiparse a los cambios normativos, por ejemplo, la futura aprobación del reglamento de la IA en la Unión Europea, así como a la implementación de una nueva tecnología o a las principales tendencias detectadas por los profesionales de Threat Intelligence.</li>
+</ul>
+
+
+
+<h4 class="wp-block-heading">4.1.1. Paso a paso</h4>
+
+
+
+<p>El&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>&nbsp;desgrana el proceso de crear y usar los perfiles a través de cinco grandes pasos:</p>
+
+
+
+<ol>
+<li>Definir el caso de uso de los perfiles: por qué se crean los perfiles; cómo se organiza la compañía; cuáles son los activos a tener en cuenta a la hora de elaborar los perfiles; quiénes deberán desarrollar, revisar y trabajar con los perfiles; qué personas establecerán las expectativas y objetivos de seguridad.</li>
+
+
+
+<li>Recopilar toda la información necesaria para elaborar los perfiles: políticas de la compañía,&nbsp;<strong>prioridades en la gestión de riesgos</strong>, recursos, requisitos legales, estándares…</li>
+
+
+
+<li>Crear los perfiles actuales y los objetivos, incluyendo la información necesaria para cada uno de los resultados seleccionados. En esta fase es importante considerar los riesgos del estado actual de seguridad para priorizar las medidas a implementar de cara a alcanzar el perfil objetivo.</li>
+
+
+
+<li>Analizar las diferencias entre los perfiles y&nbsp;<strong>crear un plan de acción</strong>. Este paso sirve para tomar decisiones eficaces que sirvan para mejorar la gestión de los riesgos teniendo en cuenta la relación coste/beneficio.</li>
+
+
+
+<li>Implementación del plan de acción y actualización de los perfiles. El plan de acción ha de permitir a la organización&nbsp;<strong>acometer con éxito las brechas de seguridad</strong>&nbsp;y caminar hacia los resultados recogidos en el perfil objetivo. Mejorar el programa de seguridad de una compañía es un trabajo continuo y de largo recorrido, de ahí que sea necesario actualizar el perfil actual para observar si se están logrando obtener los resultados esperados. Asimismo, el perfil objetivo también ha de actualizarse para&nbsp;<strong>adaptar los objetivos de seguridad a un panorama de amenazas cambiante</strong>&nbsp;y cada vez más complejo. El plan de acción ha de modificarse en función de los cambios introducidos en los perfiles.</li>
+</ol>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2023/08/cyber_security_bosch_banner-1024x574.png" alt="" class="wp-image-928" style="object-fit:cover;width:697px;height:474px" width="697" height="474"/></figure>
+
+
+
+<div style="height:35px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">4.2. Selección de niveles</h3>
+
+
+
+<p>Además del núcleo (y sus elementos) y de los perfiles hay otro concepto clave a la hora de usar el&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>: los niveles.</p>
+
+
+
+<p>Como ya hemos apuntado a lo largo del artículo, cada compañía es un mundo y sus riesgos de seguridad, recursos y deberes legales son diferentes. Los niveles permiten a las organizaciones evaluar cualitativamente sus prácticas de seguridad, teniendo en cuenta que no todas las compañías deben aspirar a alcanzar el nivel más alto, porque o carecen de recursos o el coste/beneficio no es operativo. Los niveles son:</p>
+
+
+
+<ol>
+<li>Parcial</li>
+
+
+
+<li>Riesgo informado</li>
+
+
+
+<li>Repetible</li>
+
+
+
+<li>Adaptable</li>
+</ol>
+
+
+
+<p>Además, los niveles ayudan a las compañías establecer una hoja de ruta para abordar tres grandes áreas de su estrategia de ciberseguridad:</p>
+
+
+
+<ul>
+<li>Gobernanza del riesgo</li>
+
+
+
+<li>Gestión del riesgo</li>
+
+
+
+<li>Riesgos de terceros</li>
+</ul>
+
+
+
+<p>Así, los niveles evidencian los resultados de una organización y sirven, también, para comprender el esfuerzo que ha de llevarse a cabo para subir de nivel en las áreas que venimos de describir.</p>
+
+
+
+<p>Además, son de utilidad a la hora de crear y actualizar los perfiles ya que, si se desea alcanzar un determinado nivel, por ejemplo, en la gobernanza del riesgo, el perfil objetivo ha de incluir los resultados necesarios para alcanzar ese nivel.</p>
+
+
+
+<p>En este sentido, los niveles son útiles para&nbsp;<strong>acometer la toma de decisiones en materia de ciberseguridad teniendo en cuenta los objetivos de negocio y los recursos disponibles</strong>.</p>
+
+
+
+<h3 class="wp-block-heading">4.3. Mejora de la comunicación a nivel interno y externo</h3>
+
+
+
+<p>Disponer de flujos de comunicación eficaces es clave en el éxito de las compañías y, en lo que respecta a la ciberseguridad, es de vital importancia. El&nbsp;<strong>Marco de Ciberseguridad del NIST v2</strong>&nbsp;ha sido diseñado para contribuir a mejorar la comunicación:</p>
+
+
+
+<ul>
+<li>En el conjunto de la organización. Es fundamental mejorar la comunicación en torno a las expectativas, los recursos y la planificación en materia de ciberseguridad, para que ejecutivos, managers de procesos de negocio y personas encargadas de la implementación de las medidas y las operaciones puedan compartir información de manera fluida y&nbsp;<strong>tomar decisiones eficaces para cumplir con los objetivos empresariales</strong>, salvaguardar los activos y garantizar la continuidad de negocio.</li>
+
+
+
+<li>Con las partes interesadas externas. En un contexto como el actual, en el que los&nbsp;<strong>ataques de cadena de suministro</strong>&nbsp;son una de las principales amenazas a las que tienen que hacer frente las compañías, la comunicación con todas las partes que intervienen en la cadena es esencial. El Marco de Ciberseguridad del NIST v2 se puede usar para:
+<ul>
+<li>Indicar a los proveedores los requisitos de gestión de la ciberseguridad de la compañía.</li>
+
+
+
+<li>Informar sobre el estatus de los requisitos de ciberseguridad, por ejemplo, a una entidad regulatoria.</li>
+
+
+
+<li>Entender mejor la postura de ciberseguridad de la organización, teniendo en cuenta los riesgos sistémicos a los que se enfrenta.</li>
+
+
+
+<li>Identificar las prioridades de ciberseguridad propias del sector económico en el que opera la compañía.</li>
+
+
+
+<li><strong>Compartir información sobre las prácticas de ciberseguridad</strong>&nbsp;que se llevan a cabo con posibles clientes y socios comerciales, de cara a clarificar la postura de ciberseguridad de la compañía antes de llegar a un acuerdo.</li>
+
+
+
+<li>Establecer modelos de responsabilidad compartida con las compañías que proveen servicios Cloud.</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">4.4. Gestión de los riesgos de ciberseguridad a través de las cadenas de suministro</h3>
+
+
+
+<p>Finalmente, el Marco de Ciberseguridad del NIST v2 puede ser usado en la&nbsp;<strong>gestión de los riesgos de seguridad de las cadenas de suministro y la comunicación con terceros</strong>&nbsp;involucrados en ellas.</p>
+
+
+
+<p>La relevancia y complejidad de las cadenas de suministro actuales tiene como consecuencia directa que la gestión de los riesgos de la cadena de suministro sea una cuestión crítica para las organizaciones que adquieren, proveen, desarrollan o integran productos y servicios tecnológicos.</p>
+
+
+
+<p>Para ello, se puede usar el Marco de Ciberseguridad del NIST v2 de dos formas: solo acometiendo los riesgos de la cadena de suministro a la hora de realizar la función de gobernar, o incluyendo la gestión de estos riesgos en el resto de funciones del framework.</p>
+
+
+
+<h4 class="wp-block-heading">4.4.1. Función Gobernar</h4>
+
+
+
+<p>La nueva función de gobernar incluye, como ya apuntamos antes, una categoría centrada en la gestión de los riesgos de las cadenas de suministro.</p>
+
+
+
+<p>Esta categoría recoge hasta 10 resultados que se pueden alcanzar para mejorar la forma en que se gestionan los riesgos relacionados con las cadenas de suministro. Por ejemplo, establecer un programa y una estrategia de gestión de esta clase de riesgos, llevar a cabo&nbsp;<strong>análisis de los proveedores IT y priorizarlos en función de su nivel de criticidad</strong>&nbsp;o incluir a proveedores y terceros relevantes en los planes de respuesta y recuperación de incidentes.</p>
+
+
+
+<h4 class="wp-block-heading">4.4.2. La importancia de la cadena de suministro en el resto de funciones</h4>
+
+
+
+<ul>
+<li><strong>Identificar</strong>. Es crucial identificar, validar y registrar vulnerabilidades asociadas a los proveedores de productos o servicios IT.</li>
+
+
+
+<li><strong>Proteger</strong>. Por ejemplo, a la hora de autenticar a los usuarios, llevando a cabo un registro de logs continuo y que sea monitorizado permanentemente, o integrando prácticas de desarrollo seguro de software en el ciclo de vida del desarrollo de software de los proveedores.</li>
+
+
+
+<li><strong>Detectar</strong>. Mediante el monitoreo continuo de la infraestructura IT, teniendo en cuenta también el hardware y software de terceros.</li>
+
+
+
+<li><strong>Responder</strong>. Poner en marcha los planes de respuesta si un producto o servicio se ve comprometido.</li>
+
+
+
+<li><strong>Recuperar</strong>. Ejecutar las tareas de recuperación del plan de respuesta a incidentes cuando estén implicados productos o servicios comprometidos y proceder a restaurarlos, realizando una verificación de su integridad.</li>
+</ul>
+
+
+
+<p>En definitiva, el&nbsp;<strong>Marco de Ciberseguridad del NIST</strong>&nbsp;v2 es una herramienta abierta que se adapta a las necesidades, objetivos, especificidades y recursos de cada empresa o institución para ayudarlas a optimizar sus estrategias de seguridad y&nbsp;<strong>gestionar de forma eficaz los riesgos de ciberseguridad</strong>.</p>
+
+
+
+<p></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/las-4-claves-del-marco-de-ciberseguridad-del-nist-v2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">925</post-id>	</item>
+		<item>
+		<title>OWASP SAMM: Evaluar y mejorar la seguridad del software empresarial</title>
+		<link>/seguridad-informatica/</link>
+					<comments>/seguridad-informatica/#comments</comments>
+		
+		<dc:creator><![CDATA[oyshopadmin]]></dc:creator>
+		<pubDate>Sat, 26 Aug 2023 06:55:14 +0000</pubDate>
+				<category><![CDATA[Introducción a la seguridad informática]]></category>
+		<guid isPermaLink="false">/?p=1</guid>
+
+					<description><![CDATA[OWASP SAMM es un modelo que ayuda a las empresas a evaluar su postura de seguridad de software y poner en marcha una estrategia para optimizarla El grupo de ransomware Lace Tempest, célebre por usar Cl0p para realizar extorsiones, ha protagonizado uno de los ciberataques más célebres y dañinos de 2023, al explotar una&#160;vulnerabilidad presente &#8230;<p class="read-more"> <a class="" href="/seguridad-informatica/"> <span class="screen-reader-text">OWASP SAMM: Evaluar y mejorar la seguridad del software empresarial</span> Leer más &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[
+<blockquote class="wp-block-quote">
+<p>OWASP SAMM es un modelo que ayuda a las empresas a evaluar su postura de seguridad de software y poner en marcha una estrategia para optimizarla</p>
+</blockquote>
+
+
+
+<p>El grupo de ransomware Lace Tempest, célebre por usar Cl0p para realizar extorsiones, ha protagonizado uno de los ciberataques más célebres y dañinos de 2023, al explotar una&nbsp;<a rel="noreferrer noopener" href="https://www.tarlogic.com/es/blog/cve-2023-34362-vulnerabilidad-moveit-transfer/" target="_blank">vulnerabilidad presente en el software MOVEit Transfer</a>. Esta solución permite realizar transferencias de archivos automatizadas para datos confidenciales y es usada por miles de empresas en todo el mundo. De tal forma que los ciberdelincuentes han logrado atacar a compañías energéticas, fondos de pensiones, aseguradoras o administraciones públicas en Norteamérica y Europa de ámbitos sensibles como la educación o la salud.</p>
+
+
+
+<p>Este ataque evidencia la necesidad de que las empresas y las instituciones cuenten con una estrategia de seguridad eficaz para proteger el software empresarial a lo largo de su ciclo de vida</p>
+
+
+
+<p>Por eso, la&nbsp;<a rel="noreferrer noopener" href="https://owasp.org/" target="_blank">Fundación OWASP</a>&nbsp;creó en 2009 un modelo de madurez de seguridad del software, conocido por sus siglas en inglés: SAMM. Este modelo permite a las organizaciones analizar sus prácticas de seguridad del software y las ayuda a construir un programa de seguridad para optimizarlas, incrementando, así, el nivel de protección del software empresarial.</p>
+
+
+
+<p>A continuación, vamos a diseccionar las claves de&nbsp;<strong>OWASP SAMM</strong>&nbsp;y cómo los servicios de ciberseguridad avanzados pueden ayudar a las empresas a mejorar su postura de seguridad del software, de acuerdo a las funciones, prácticas, actividades y niveles del modelo.</p>
+
+
+
+<h2 class="wp-block-heading">1. Qué es OWASP SAMM y cómo se puede usar</h2>
+
+
+
+<p><strong>OWASP SAMM es un framework a disposición de todas las empresas y administraciones públicas para evaluar, diseñar e implementar una estrategia de seguridad del software</strong>. El modelo ha sido diseñado de forma abierta, de cara a garantizar que se puede adaptar a cualquier contexto. Así,&nbsp;<strong>OWASP SAMM</strong>&nbsp;no está pensado solo para ser empleado por las compañías que desarrollan software, sino también para aquellas que lo contratan o adquieren.</p>
+
+
+
+<p>Además, se trata de una herramienta que se puede usar si la organización ha adoptado el enfoque DevSecOps para securizar el software desde el diseño y a lo largo de todo su ciclo de vida.</p>
+
+
+
+<p>A través de SAMM, las empresas pequeñas, medianas y grandes pueden analizar sus actuales prácticas de seguridad, definir un plan de mejora y evaluar su implementación. De ahí que OWASP señale cuatro usos prácticos de SAMM:</p>
+
+
+
+<ul>
+<li>Evaluar la postura de seguridad del software actual de una organización.</li>
+
+
+
+<li>Establecer la estrategia de seguridad de la organización en función de los objetivos que se persiguen.</li>
+
+
+
+<li>Diseñar un plan de acción para alcanzar los objetivos, incluyendo las actividades que se deben llevar a cabo.</li>
+
+
+
+<li>Asesorar a las organizaciones a la hora de implementar algunas actividades.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">1.1. Puesta en marcha</h2>
+
+
+
+<p>Para comenzar a trabajar con SAMM, OWASP recomienda seguir seis pasos básicos:</p>
+
+
+
+<ol>
+<li><strong>Preparación</strong>. En esta fase se ha de establecer el target, es decir, si se buscar mejorar la seguridad de una aplicación concreta, de un área determinada o de toda la organización. Además, es fundamental identificar a todas las organizaciones terceras involucradas, como los proveedores de software, y asegurarse de que están alineadas con la estrategia de seguridad.</li>
+
+
+
+<li><strong>Evaluación</strong>. Se&nbsp;<strong>usa OWASP SAMM para evaluar las prácticas de seguridad actuales</strong>&nbsp;y determinar el nivel de madurez que se busca alcanzar en cada práctica de seguridad del modelo.</li>
+
+
+
+<li><strong>Establecimiento de los objetivos</strong>. El tercer paso gira en torno al establecimiento de los objetivos a conseguir. Para ello, la compañía debe fijar las actividades de seguridad que debe llevar a cabo, teniendo en cuenta la coherencia entre ellas y los recursos económicos disponibles, precisando a cuánto asciende el presupuesto destinado a optimizar la estrategia de seguridad del software.</li>
+
+
+
+<li><strong>Planificación</strong>. Es fundamental planificar la estrategia para mejorar la postura de seguridad de la organización, incluyendo fases y plazos y distribuyendo las actividades, teniendo en cuenta los recursos disponibles y el esfuerzo que requiere cada actividad.</li>
+
+
+
+<li><strong>Implementación</strong>. En la penúltima fase de implementan las actividades en función del calendario elaborado durante la planificación. Es importante tener en cuenta su impacto en los procesos, las personas y las herramientas de la compañía.</li>
+
+
+
+<li><strong>Despliegue</strong>. Finalmente, hay que medir la eficacia de las medidas implementadas y su impacto en la organización.</li>
+</ol>
+
+
+
+<p>¿Han de ejecutarse todas las fases? No, dependerá del uso que se le quiera dar al modelo. Por ejemplo, si solo se emplea&nbsp;<strong>OWASP SAMM</strong>&nbsp;para evaluar la postura de seguridad de la compañía, bastará con implementar los dos primeros pasos.</p>
+
+
+
+<h2 class="wp-block-heading">2. Estructura de OWASP SAMM</h2>
+
+
+
+<p>Para entender cómo funciona el SAMM y cómo se puede usar de forma práctica para mejorar la seguridad del software empresariales es importante abordar la estructura del modelo, que gira en torno a cinco grandes elementos:</p>
+
+
+
+<ol>
+<li>Funciones de negocio.</li>
+
+
+
+<li>Prácticas de seguridad.</li>
+
+
+
+<li>Flujos.</li>
+
+
+
+<li>Niveles de madurez.</li>
+
+
+
+<li>Actividades.</li>
+</ol>
+
+
+
+<h2 class="wp-block-heading">2.1. Funciones de negocio y prácticas de seguridad</h2>
+
+
+
+<p><strong>OWASP SAMM</strong>&nbsp;se estructura en forma de árbol. El tronco de este árbol lo conforman cinco funciones de negocio:</p>
+
+
+
+<ol>
+<li><strong>Gobernanza (G)</strong>. Esta función engloba los procesos relacionados con la gestión de las actividades de desarrollo de software, su impacto en la organización y los procesos empresariales.</li>
+
+
+
+<li><strong>Diseño (D)</strong>. La segunda función de SAMM presta atención a las actuaciones que se realizan dentro de los proyectos de desarrollo de software, a los requisitos de seguridad y a la arquitectura de las aplicaciones.</li>
+
+
+
+<li><strong>Implementación (I)</strong>. Engloba todos los procesos relacionados con la construcción y el despliegue de los componentes de software, prestando especial atención a sus defectos. Las actividades que forman parte de esta función tienen como objetivo distribuir software fiable y con los mínimos defectos.</li>
+
+
+
+<li><strong>Verificación (V)</strong>. Gira en torno a la prueba y comprobación del software a lo largo de su ciclo de vida. En este sentido, juegan un papel fundamental las pruebas de seguridad de aplicaciones.</li>
+
+
+
+<li><strong>Operaciones (O)</strong>. Las actividades de esta función deben garantizar la confidencialidad, integridad y disponibilidad de los datos durante toda la vida de las aplicaciones.</li>
+</ol>
+
+
+
+<p>Estas cinco funciones cuentan, cada una de ellas, con tres prácticas de seguridad asociadas. De tal forma que&nbsp;<strong>OWASP SAMM es un modelo conformado por 15 prácticas de seguridad</strong>&nbsp;a tener en cuenta en la securización del software empresarial.</p>
+
+
+
+<ul>
+<li>Estrategia y métricas (G).</li>
+
+
+
+<li>Política y cumplimiento (G).</li>
+
+
+
+<li>Formación y orientación (G).</li>
+
+
+
+<li>Evaluación de amenazas (D).</li>
+
+
+
+<li>Requisitos de seguridad (D).</li>
+
+
+
+<li>Arquitectura de seguridad (D).</li>
+
+
+
+<li>Construcción segura (I).</li>
+
+
+
+<li>Implantación segura (I).</li>
+
+
+
+<li>Gestión de fallos (I).</li>
+
+
+
+<li>Evaluación de la arquitectura (V).</li>
+
+
+
+<li>Pruebas basadas en requisitos (V).</li>
+
+
+
+<li>Pruebas de seguridad (V).</li>
+
+
+
+<li>Gestión de incidentes (O).</li>
+
+
+
+<li>Gestión del entorno (O).</li>
+
+
+
+<li>Gestión operativa (O).</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">2.2. Flujos, niveles de madurez y actividades que se deben realizar</h2>
+
+
+
+<p>Todas las prácticas de seguridad que venimos de enumerar se dividen, a su vez, en dos flujos que incluyen tres actividades diferentes, en función del nivel de madurez de la organización. Por ejemplo, la práctica de seguridad denominada Implantación segura se divide en dos flujos que contienen tres actividades diferentes, en función del nivel de madurez que busca alcanzar la organización:</p>
+
+
+
+<h4 class="wp-block-heading">1. Proceso de implantación</h4>
+
+
+
+<ul>
+<li><strong>Nivel 1</strong>. Formalizar el proceso de implantación y securizar las herramientas y procesos usados.</li>
+
+
+
+<li><strong>Nivel 2</strong>. Automatizar el proceso de implantación en todas sus fases e introducir pruebas de verificación de seguridad.</li>
+
+
+
+<li><strong>Nivel 3</strong>. Verificar automáticamente la integridad de todo el software desplegado, sin importar si se ha desarrollado de forma interna o externa.</li>
+</ul>
+
+
+
+<h4 class="wp-block-heading">2. Gestión de los secretos</h4>
+
+
+
+<ul>
+<li><strong>Nivel 1</strong>. Poner en marcha medidas de protección básicas, con el objetivo de limitar el acceso a los secretos de producción del software.</li>
+
+
+
+<li><strong>Nivel 2</strong>. Inyectar secretos durante el proceso de despliegue desde almacenes reforzados. Así como auditar todos los accesos a ellos.</li>
+
+
+
+<li><strong>Nivel 3</strong>. Optimizar el ciclo de vida de los secretos de software, garantizando su uso adecuado.</li>
+</ul>
+
+
+
+<p>Esta estructura se repite con las otras 14 prácticas de seguridad. De tal forma que&nbsp;<strong>OWASP SAMM propone hasta 90 actividades</strong>&nbsp;que se pueden llevar a cabo para mejorar la postura de seguridad del software de una compañía o administración pública.</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2023/08/consejos-ciberseguridad-contra-las-amenazas-de-la-red-1024x683.jpg" alt="" class="wp-image-919" style="width:697px;height:465px" width="697" height="465" srcset="/wp-content/uploads/2023/08/consejos-ciberseguridad-contra-las-amenazas-de-la-red-1024x683.jpg 1024w, /wp-content/uploads/2023/08/consejos-ciberseguridad-contra-las-amenazas-de-la-red-300x200.jpg 300w, /wp-content/uploads/2023/08/consejos-ciberseguridad-contra-las-amenazas-de-la-red-768x512.jpg 768w, /wp-content/uploads/2023/08/consejos-ciberseguridad-contra-las-amenazas-de-la-red-1320x880.jpg 1320w, /wp-content/uploads/2023/08/consejos-ciberseguridad-contra-las-amenazas-de-la-red-600x400.jpg 600w, /wp-content/uploads/2023/08/consejos-ciberseguridad-contra-las-amenazas-de-la-red.jpg 1500w" sizes="(max-width: 697px) 100vw, 697px" /></figure>
+
+
+
+<div style="height:29px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h4 class="wp-block-heading">2.2.1. La importancia de los niveles</h4>
+
+
+
+<p>¿Quiere decir esto que todas las empresas deben poner en marcha una estrategia para implementar las 90 actividades? No. Por eso&nbsp;<strong>OWASP SAMM</strong>&nbsp;incluye los niveles de madurez. Puesto que no todas las empresas están sometidas al mismo nivel de ciberexposición ni tienen que hacer frente a los mismos riesgos.</p>
+
+
+
+<p>Al fin y al cabo, resulta evidente que una multinacional que opera en un sector crítico como las finanzas o la energía y una pyme cuya actividad económica no es crítica para el funcionamiento de la sociedad y el mercado, no disponen de los mismos recursos, pero tampoco están obligadas a cumplir los mismos requisitos normativos, ni tienen necesidades y objetivos de seguridad análogos.</p>
+
+
+
+<p>Por ello, OWASP incluyó los niveles de madurez, para ayudar a las empresas, sin importar su tamaño o sector económico, a evaluar sus prácticas de seguridad y trazar estrategias para incrementar el nivel de madurez en aquellas prácticas clave para la organización, en función de los recursos y presupuesto disponibles.</p>
+
+
+
+<h2 class="wp-block-heading">3. Cómo evaluar la postura de seguridad y la eficacia de las acciones implementadas</h2>
+
+
+
+<p><strong>Las evaluaciones son un elemento fundamental del OWASP SAMM</strong>, puesto que gracias al modelo una organización puede medir la efectividad de sus prácticas de seguridad actuales y fijar una hoja de ruta por fases para mejorar los resultados actuales.</p>
+
+
+
+<p>Usar SAMM para realizar evaluaciones es una práctica muy sencilla y se basa en la cumplimentación de una entrevista.</p>
+
+
+
+<p>El modelo formula una pregunta para cada una de las 90 actividades que lo conforman. A cada pregunta se puede responder con una de las cuatro respuestas predefinidas. Para facilitar la tarea de respuesta,&nbsp;<strong>OWASP SAMM</strong>&nbsp;incluye una serie de criterios de calidad para cada pregunta.</p>
+
+
+
+<p>Por ejemplo, la primera pregunta de la función Gobernanza es «¿Conoce la cantidad de riesgo que está dispuesta a asumir toda la compañía en lo relativo a sus aplicaciones de software?». Los criterios de calidad que se ofrecen como guía son:</p>
+
+
+
+<ul>
+<li>Es posible conocer el nivel de riesgo que quieren asumir los directivos de la compañía.</li>
+
+
+
+<li>La dirección de la empresa examina y aprueba los riesgos de software.</li>
+
+
+
+<li>Se pueden identificar las principales amenazas empresariales y técnicas para los activos de la compañía y sus datos.</li>
+
+
+
+<li>Los riesgos pueden documentarse y guardarse en un lugar accesible y seguro.</li>
+</ul>
+
+
+
+<p>Sirviéndose de estos criterios de calidad, la persona que esté cumplimentando la entrevista puede responder:</p>
+
+
+
+<ul>
+<li>No. Si los criterios no se cumplen en su totalidad.</li>
+
+
+
+<li>Sí, se cubren los riesgos generales.</li>
+
+
+
+<li>Sí, se cubren los riesgos específicos de la organización.</li>
+
+
+
+<li>Sí, se cubren riegos y oportunidades.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">3.1. Transformar respuestas cualitativas en calificaciones cuantitativas</h3>
+
+
+
+<p>Para llevar a cabo las evaluaciones y facilitar el diseño de una estrategia de seguridad que mejore la postura de seguridad del software, OWASP pone a disposición de las empresas herramientas en formato Microsoft Excel y Google Spreadsheet. Además, las compañías pueden diseñar sus propias herramientas de evaluación online o hacer uso de SAMMY, una solución creada por Codific.</p>
+
+
+
+<p>Estas herramientas facilitan la tarea de transformar las respuestas a las&nbsp;<strong>90 preguntas de OWASP SAMM</strong>&nbsp;en una puntuación que representa el nivel de madurez de una organización en lo relativo a las diferentes prácticas de seguridad, pero también a las funciones de negocio.</p>
+
+
+
+<p>Así, la puntuación puede ir del 0 al 3, que representa el máximo nivel de madurez. Como ya señalamos antes, no todas las empresas deben aspirar a alcanzar esta puntuación en cada práctica de seguridad, sino que, debe ir en consonancia con las necesidades, objetivos y recursos empresariales.</p>
+
+
+
+<p>Por ello, a partir de la puntuación inicial, las organizaciones pueden fijarse como objetivo alcanzar puntuaciones más elevadas en un futuro, planificando el proceso de optimización de la estrategia de seguridad del software en diferentes fases, de cara a lograr implementar con éxito las actividades contempladas en el modelo.</p>
+
+
+
+<p>¿Cómo se comprueba que el programa de seguridad se está implementando de forma idónea y se cumplen los objetivos de cada fase? Volviendo a realizar la&nbsp;<strong>evaluación mediante OWASP SAMM</strong>.</p>
+
+
+
+<p><a href="https://www.tarlogic.com/wp-content/uploads/2023/08/seguridad-software-3.webp"></a></p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" src="/wp-content/uploads/2023/08/blog-ciber-1024x576.jpg" alt="" class="wp-image-920" style="object-fit:cover;width:697px;height:474px" width="697" height="474"/></figure>
+
+
+
+<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading">4. Servicios de ciberseguridad para proteger el software en todo su ciclo de vida</h2>
+
+
+
+<p>Las claves de&nbsp;<strong>OWASP SAMM</strong>&nbsp;que hemos ido desgranando en este artículo ponen en valor la necesidad de que las empresas que deseen fortalecer la seguridad del software empresarial cuenten con servicios de ciberseguridad avanzados en las cinco grandes funciones de negocio y en las 15 prácticas de seguridad que las conforman.</p>
+
+
+
+<h3 class="wp-block-heading">4.1. Múltiples servicios para optimizar todas las funciones de negocio</h3>
+
+
+
+<ul>
+<li><strong>Gobernanza</strong>. El asesoramiento integral en materia de ciberseguridad para gestionar con eficacia las capacidades defensivas, cumplir con los requisitos normativos y formar a los profesionales de una organización para que lleven a cabo buenas prácticas es crucial.</li>
+
+
+
+<li><strong>Diseño</strong>. Realizar evaluaciones de amenazas del software propio y de las aplicaciones y componentes de terceros y auditorías de código, así como establecer prácticas y requisitos de seguridad eficaces a la hora de diseñar el software y gestionar los activos tecnológicos.</li>
+
+
+
+<li><strong>Implementación</strong>. Monitorear de forma continua el software y los componentes de terceros para detectar vulnerabilidades antes de que sean explotadas por actores hostiles. Son fundamentales tanto el servicio de gestión de vulnerabilidades como la detección de vulnerabilidades emergentes.</li>
+
+
+
+<li><strong>Verificación</strong>. Llevar a cabo pruebas de seguridad de aplicaciones (DAST, SAST, SCA, SCS…) de manera permanente para detectar fallos y vulnerabilidades que puedan dar lugar a incidentes de seguridad.</li>
+
+
+
+<li><strong>Operaciones</strong>. Las empresas deben disponer de mecanismos de seguridad para detectar incidentes de seguridad, responder y mitigar las actuaciones maliciosas, de cara a garantizar la continuidad de negocio y la protección de los datos.</li>
+</ul>
+
+
+
+<p>En definitiva,&nbsp;<strong>OWASP SAMM es una metodología abierta</strong>, que se adapta al contexto de cualquier organización y que sirve para evaluar la postura de seguridad del software, así como para diseñar un plan de acción y una hoja de ruta para mejorarla.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/seguridad-informatica/feed/</wfw:commentRss>
+			<slash:comments>3</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">1</post-id>	</item>
+	</channel>
+</rss>

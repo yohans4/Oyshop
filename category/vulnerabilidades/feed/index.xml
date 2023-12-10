@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>Vulnerabilidades</title>
+	<atom:link href="/category/vulnerabilidades/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Tienda online de componentes electrónicos</description>
+	<lastBuildDate>Thu, 31 Aug 2023 03:19:36 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2023/08/cropped-LOGO-2-1-32x32.png</url>
+	<title>Vulnerabilidades</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">222906673</site>	<item>
+		<title>Seguridad API, así es el top 10 de riesgos de OWASP</title>
+		<link>/seguridad-api-asi-es-el-top-10-de-riesgos-de-owasp/</link>
+					<comments>/seguridad-api-asi-es-el-top-10-de-riesgos-de-owasp/#respond</comments>
+		
+		<dc:creator><![CDATA[oyshopadmin]]></dc:creator>
+		<pubDate>Thu, 31 Aug 2023 03:06:35 +0000</pubDate>
+				<category><![CDATA[Vulnerabilidades]]></category>
+		<guid isPermaLink="false">/?p=965</guid>
+
+					<description><![CDATA[El Top 10 de seguridad API de OWASP pone el foco sobre las principales vulnerabilidades presentes en las interfaces de programación de aplicaciones Pocos acrónimos son más relevantes para explicar la digitalización de nuestro mundo que&#160;API. Detrás de estas tres letras se esconde el concepto Application Programming Interfaces. Estas interfaces de programación de aplicaciones se &#8230;<p class="read-more"> <a class="" href="/seguridad-api-asi-es-el-top-10-de-riesgos-de-owasp/"> <span class="screen-reader-text">Seguridad API, así es el top 10 de riesgos de OWASP</span> Leer más &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[
+<blockquote class="wp-block-quote">
+<p>El Top 10 de seguridad API de OWASP pone el foco sobre las principales vulnerabilidades presentes en las interfaces de programación de aplicaciones</p>
+</blockquote>
+
+
+
+<p>Pocos acrónimos son más relevantes para explicar la digitalización de nuestro mundo que&nbsp;<strong>API</strong>. Detrás de estas tres letras se esconde el concepto Application Programming Interfaces. Estas interfaces de programación de aplicaciones se tratan de especificaciones o reglas que sirven para facilitar la comunicación entre diferentes aplicaciones. Así, las API definen y protocolizan cómo interacciona un software con otro. Como consecuencia de ello, las API se han convertido en elementos clave tanto a la hora de&nbsp;<strong>desarrollar nuevo software</strong>&nbsp;como en lo relativo a la&nbsp;<strong>conexión entre aplicaciones</strong>.</p>
+
+
+
+<p>El papel que ocupan las API en el mundo del desarrollo ha atraído a los ciberdelincuentes, situándolas en el punto de mira de los ataques. Por ello, la fundación&nbsp;<a href="https://www.tarlogic.com/es/glosario-ciberseguridad/owasp/" target="_blank" rel="noreferrer noopener">OWASP</a>, un referente global en la elaboración de materiales y estándares en materia de ciberseguridad, publicó en 2019 la primera versión del<strong>&nbsp;Top 10 de seguridad API</strong>, centrada en listar las&nbsp;<strong>10 grandes vulnerabilidades que pueden estar presentes en las API</strong>&nbsp;y ser explotadas por los actores hostiles.</p>
+
+
+
+<p>A principios de junio de 2023, ha visto la luz la&nbsp;<a href="https://owasp.org/API-Security/editions/2023/en/0x11-t10/" target="_blank" rel="noreferrer noopener">nueva versión</a>&nbsp;del&nbsp;<strong>Top 10 de seguridad API de OWASP</strong>, que incorpora todos los cambios que se han producido en los últimos cuatro años en torno a las API y las amenazas que deben tener en cuenta desarrolladores, especialistas en ciberseguridad y empresas.</p>
+
+
+
+<p>A continuación, vamos a desgranar las claves de la versión de 2023 del&nbsp;<strong>Top 10 de seguridad API de OWASP</strong>&nbsp;y cómo este ranking puede servir de ayuda a la hora de&nbsp;<strong>proteger a las API a lo largo de todo su ciclo de vida</strong>.</p>
+
+
+
+<h2 class="wp-block-heading">1. Las API, un elemento fundamental en la digitalización del mundo</h2>
+
+
+
+<p>Vivimos rodeados de API, aunque no están al alcance de nuestra vista. Las API posibilitan que podamos pagar una compra en un ecommerce, tengamos a nuestra disposición la información meteorológica en una app de nuestro móvil o podamos reservar a golpe de clic una habitación de hotel para disfrutar de una escapada de fin de semana con nuestra pareja.</p>
+
+
+
+<p>La definición de las API con la que comenzamos este artículo evidencia su relevancia en el desarrollo de software a raíz del salto al Cloud y el auge del Software as a Service (SaaS), las apps móviles y los dispositivos IoT.</p>
+
+
+
+<p>De hecho,&nbsp;<strong>las API han revolucionado el desarrollo de aplicaciones</strong>&nbsp;al permitir disminuir los costes y reducir el tiempo que se necesita para desarrollarlas. Gracias a las API no es necesario desarrollar software desde cero y se incrementa la capacidad de innovación y escalabilidad.</p>
+
+
+
+<p>En la actualidad, las API son empleadas en&nbsp;<strong>aplicaciones empresariales</strong>&nbsp;de toda clase de sectores económicos (finanzas, transporte, comercio, salud), ya estén desarrolladas para ser usadas por clientes, socios comerciales o de forma interna.</p>
+
+
+
+<p>Al facilitar la comunicación entre aplicaciones y la transmisión de datos,&nbsp;<strong>las API se han convertido en un target prioritario para los criminales</strong>&nbsp;que buscan cometer acciones maliciosas contra el software empresarial y cumplir con sus objetivos delictivos: robo, secuestro y exfiltración de datos, paralización de la operatividad de una empresa…</p>
+
+
+
+<p>La detección de vulnerabilidades relacionadas con API inseguras se ha convertido en una cuestión de vital importancia para las compañías hoy en día. De ahí que la puesta en marcha de una&nbsp;<strong>auditoría de seguridad web</strong>&nbsp;sea fundamental para encontrar debilidades en las API, antes de que sean explotadas por actores hostiles.</p>
+
+
+
+<h2 class="wp-block-heading">2. Los 10 riesgos de seguridad de las API más importantes</h2>
+
+
+
+<p>Al igual que sucede con el resto de rankings de OWASP, el&nbsp;<strong>Top 10 de seguridad API</strong>es fruto de una profusa investigación sobre&nbsp;<strong>incidentes de seguridad en torno a API</strong>&nbsp;y de las aportaciones realizadas por expertos de todo el mundo. El objetivo de la nueva versión del&nbsp;<strong>Top 10 de seguridad API</strong>&nbsp;es listar los riesgos específicos de las API que las empresas, los desarrolladores y los profesionales de ciberseguridad deben tener en cuenta para fortalecer su seguridad.</p>
+
+
+
+<p>Por ello, el&nbsp;<strong>Top 10 de seguridad API</strong>&nbsp;no es excluyente con respecto a otros documentos de OWASP como el Top 10 de vulnerabilidades de aplicaciones web. Las aplicaciones que emplean API pueden presentar vulnerabilidades directamente ligadas a ellas, pero también son susceptibles de presentar alguna de las debilidades genéricas del&nbsp;<strong>Top 10 de aplicaciones web</strong>.</p>
+
+
+
+<p>A la hora de abordar cada uno de los riesgos del top, OWASP aporta:</p>
+
+
+
+<ul>
+<li>Una descripción del riesgo</li>
+
+
+
+<li>Ejemplos de escenarios en los que la vulnerabilidad puede ser explotada por actores hostiles</li>
+
+
+
+<li>Recomendaciones para prevenir su presencia en las API</li>
+</ul>
+
+
+
+<p>Este&nbsp;<strong>Top 10 de seguridad API</strong>&nbsp;está compuesto por los siguientes riesgos:</p>
+
+
+
+<ol>
+<li>Autorización rota a nivel de objeto</li>
+
+
+
+<li>Autenticación incorrecta</li>
+
+
+
+<li>Autorización rota a nivel de propiedad de objeto</li>
+
+
+
+<li>Consumo de recursos no restringido</li>
+
+
+
+<li>Autorización rota a nivel de función</li>
+
+
+
+<li>Acceso sin restricciones a flujos empresariales sensibles</li>
+
+
+
+<li>Falsificación de peticiones del lado del servidor</li>
+
+
+
+<li>Incorrecta configuración de la seguridad</li>
+
+
+
+<li>Gestión inadecuada del inventario</li>
+
+
+
+<li>Consumo inseguro de API</li>
+</ol>
+
+
+
+<h3 class="wp-block-heading">2.1. Autorización rota a nivel de objeto</h3>
+
+
+
+<p>La&nbsp;<strong>autorización a nivel de objeto</strong>&nbsp;es un mecanismo esencial en el funcionamiento de las API, puesto que sirve para controlar el acceso de los usuarios y validar que cada usuario goza de los permisos necesarios para realizar una determinada acción sobre el objeto solicitado.</p>
+
+
+
+<p>Así, cada endpoint de la API recibe un ID de un objeto y realiza una acción sobre él, debe llevar a cabo una comprobación para asegurar la autorización a nivel de objeto.</p>
+
+
+
+<p>¿Qué sucede si este mecanismo falla? Se puede producir la divulgación de información y se abre la puerta a la&nbsp;<strong>manipulación y destrucción de datos</strong>.</p>
+
+
+
+<p>OWASP señala que esta vulnerabilidad es fácilmente explotable por los actores hostiles. Puesto que los delincuentes pueden explotar los endpoints de una API que presentan esta debilidad. Este problema es muy habitual en las aplicaciones basadas en API, de ahí su primera posición en el Top 10 de seguridad API.</p>
+
+
+
+<h4 class="wp-block-heading">2.1.1. Prevención</h4>
+
+
+
+<p>Para prevenir esta vulnerabilidad, el&nbsp;<strong>Top 10 de seguridad API de OWASP</strong>&nbsp;recomienda:</p>
+
+
+
+<ul>
+<li>Implantar un&nbsp;<strong>mecanismo de autorización adecuado</strong>&nbsp;que se base en las políticas y la jerarquía de usuarios.</li>
+
+
+
+<li>Utilizar el mecanismo de autorización para comprobar si el usuario autenticado tiene acceso para realizar la acción solicitada en cada función que utilice una entrada de datos del cliente para acceder a un registro de la base de datos.</li>
+
+
+
+<li>Priorizar el uso de valores aleatorios e impredecibles como GUIDs para los identificadores de los registros.</li>
+
+
+
+<li>Incluir test de verificación para&nbsp;<strong>evaluar posibles vulnerabilidades del mecanismo de autorización</strong>&nbsp;y no incluir los cambios que hagan fallar dichas pruebas.</li>
+</ul>
+
+
+
+<p>Desde&nbsp;<strong>Tarlogic</strong>, también recomendamos&nbsp;<strong>aplicar una política de mínimo privilegio por defecto</strong>&nbsp;sobre la implementación de los controles de autorización. Asimismo, también es interesante eliminar cualquier parámetro del lado del cliente relacionado con la identidad o los permisos del usuario, ya que esta información debería ser siempre obtenida del lado del servidor en base a la sesión activa.</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img fetchpriority="high" decoding="async" src="/wp-content/uploads/2023/08/ikusi_ikusi_image_20-1024x683.jpeg" alt="" class="wp-image-966" style="object-fit:cover;width:697px;height:474px" width="697" height="474"/></figure>
+
+
+
+<div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">2.2. Autenticación incorrecta</h3>
+
+
+
+<p>Los endpoints de autenticación son activos cruciales, por lo que es fundamental protegerlos frente a la actividad maliciosa. OWASP cita diversos&nbsp;<strong>escenarios en los que una API es vulnerable con respecto a la autenticación</strong>:</p>
+
+
+
+<ul>
+<li>Se permite la introducción de credenciales donde el agresor emplea la fuerza bruta con un listado de nombres de usuario y contraseñas que son válidos.</li>
+
+
+
+<li>Es posible realizar ataques de fuerza bruta sobre la misma cuenta de usuario, sin disponer de un mecanismo de bloqueo de la cuenta.</li>
+
+
+
+<li>Se pueden emplear contraseñas débiles o sin cifrar.</li>
+
+
+
+<li>Se envían datos de autenticación sensibles como tokens o contraseñas en la URL.</li>
+
+
+
+<li>Los usuarios pueden modificar su email o contraseña o realizar operaciones sensibles sin que se les requiera confirmación mediante la introducción de contraseña.</li>
+
+
+
+<li>Se utilizan claves de cifrado débiles</li>
+
+
+
+<li>No se valida la autenticidad de los tokens.</li>
+
+
+
+<li>Acepta tokens JWT sin firmar y/o cifrar.</li>
+
+
+
+<li>No se valida el tiempo de expiración del token JWT.</li>
+
+
+
+<li>Almacenamiento de claves en texto plano, débiles o sin aplicar un hash.</li>
+
+
+
+<li>Uso de claves de cifrado débiles.</li>
+</ul>
+
+
+
+<p>El grupo de trabajo de OWASP que confeccionó el&nbsp;<strong>Top 10 de seguridad API</strong>&nbsp;sostiene que los mecanismos de autenticación son targets sencillos para los actores hostiles, puesto que están expuestos y existen herramientas que facilitan la explotación. Además, OWASP alerta del impacto técnico de esta vulnerabilidad, puesto que, a través de ella, los delincuentes pueden<strong>&nbsp;conseguir un control completo de las cuentas de otros usuarios</strong>, acceder a sus datos privados y suplantar su identidad para llevar a cabo acciones sensibles.</p>
+
+
+
+<h4 class="wp-block-heading">2.2.1. Prevención</h4>
+
+
+
+<p>El&nbsp;<strong>Top 10 de seguridad API</strong>&nbsp;propone una serie de acciones que se pueden implementar para prevenir esta vulnerabilidad:</p>
+
+
+
+<ul>
+<li>Conocer con precisión todos los flujos de autenticación de la API.</li>
+
+
+
+<li>Analizar todos los mecanismos de autenticación.</li>
+
+
+
+<li>Emplear los estándares existentes a la hora de gestionar la autenticación, la generación de tokens y el almacenamiento de contraseñas.</li>
+
+
+
+<li>Los endpoints de recuperación de credenciales y contraseñas olvidadas han de gestionarse como endpoints de inicio de sesión, en lo relativo al uso de fuerza bruta, la limitación de velocidad y las protecciones de bloqueo.</li>
+
+
+
+<li>Exigir doble autenticación para realizar operaciones sensibles.</li>
+
+
+
+<li>Optar por la&nbsp;<strong>autenticación multifactor</strong>&nbsp;siempre que sea posible.</li>
+
+
+
+<li>Poner en marcha mecanismos contra los ataques de fuerza bruta y la introducción de credenciales.</li>
+
+
+
+<li>Disponer de&nbsp;<strong>mecanismos de bloqueo de cuentas</strong>&nbsp;para evitar ataques contra los usuarios.</li>
+
+
+
+<li>Realizar comprobaciones de contraseñas débiles.</li>
+
+
+
+<li>Las claves de API solo han de emplearse para la autenticación de los clientes API, y no para la autenticación de usuarios.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading"></h3>
+
+
+
+<h3 class="wp-block-heading">2.3. Autorización rota a nivel de propiedad de objeto</h3>
+
+
+
+<p>El&nbsp;<strong>Top 10 de seguridad API de OWASP</strong>&nbsp;establece que una API es vulnerable cuando un usuario puede acceder a un objeto empleando un endpoint de la API sin que se haya procedido a validar que dicho usuario tiene derecho a acceder a las propiedades específicas del objetivo a las que quiere acceder.</p>
+
+
+
+<p>De tal forma que el endpoint de la API es vulnerable si:</p>
+
+
+
+<ul>
+<li>Expone propiedades de un objeto consideradas sensibles y a las que no debe acceder el usuario.</li>
+
+
+
+<li>Permite al usuario cambiar, añadir y o eliminar el valor de una propiedad sensible, para la que no debería tener acceso.</li>
+</ul>
+
+
+
+<p>Muchas API exponen endpoints que devuelven todas las propiedades de los objetos. Además, existen herramientas automatizadas para identificar propiedades que puedan ser manipuladas. La explotación de esta vulnerabilidad puede servir para&nbsp;<strong>acceder, robar y corromper datos</strong>. Y, en algunos casos, el acceso no autorizado a las propiedades de los objetos puede ser empleado por los actores hostiles para&nbsp;<strong>escalar privilegios y tomar el control de la cuenta</strong>.</p>
+
+
+
+<h4 class="wp-block-heading">2.3.1. Prevención</h4>
+
+
+
+<p>Para evitar esta vulnerabilidad, OWASP recomienda:</p>
+
+
+
+<ul>
+<li>Si se expone un objeto utilizando un endpoint de API, verificar siempre si el usuario ha de poder acceder a las propiedades del objeto que se expone.</li>
+
+
+
+<li>Evitar métodos genéricos y seleccionar las propiedades específicas que se desean devolver.</li>
+
+
+
+<li>Evitar usar funciones que vinculen automáticamente los datos del cliente con variables de código, objetos internos o propiedades del objeto.</li>
+
+
+
+<li>Solo permitir cambios en las propiedades del objeto que han de ser actualizadas por el cliente.</li>
+
+
+
+<li>Poner en marcha mecanismos de validación de respuestas.</li>
+
+
+
+<li>Mantener al mínimo las estructuras de datos devueltas, en función de las necesidades y objetivos empresariales.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">2.4. Consumo no restringido de recursos</h3>
+
+
+
+<p>Las API tienen que satisfacer múltiples solicitudes y para ello necesitan emplear recursos como ancho de banda, memoria o almacenamiento. Si no se limita el consumo de recursos, se pueden producir dos escenarios:</p>
+
+
+
+<ul>
+<li>La explotación de esta vulnerabilidad por actores hostiles mediante un<strong>&nbsp;ataque de denegación de servicio (DoS)</strong>, ante la falta de suficientes recursos para atender a todas las peticiones que se realizan a la API.</li>
+
+
+
+<li>Un aumento sustancial de los costes operativos asociado al incremento de los recursos que se deben emplear, por ejemplo, más almacenamiento en la nube.</li>
+</ul>
+
+
+
+<p>La explotación de la&nbsp;<strong>falta de límites en el consumo de recursos</strong>&nbsp;es fácilmente explotable, puesto que solo es necesario realizar peticiones a la API. Los delincuentes tienen a su alcance herramientas automatizadas para realizar ataques DoS a través de altas cargas de tráfico.</p>
+
+
+
+<p>El&nbsp;<strong>Top 10 de seguridad API de OWASP</strong>&nbsp;considera que es fundamental establecer límites adecuados en relación con el tiempo de espera de ejecución, la memoria máxima que se puede asignar, el número máximo de procesos o el tamaño máximo del archivo cargado.</p>
+
+
+
+<h4 class="wp-block-heading">2.4.1. Prevención</h4>
+
+
+
+<p>Para evitar esta vulnerabilidad de las API, OWASP recomienda:</p>
+
+
+
+<ul>
+<li>Disponer de una solución que limite la memoria, la CPU, el número de reinicios, descriptores de ficheros abiertos y procesos como contenedores, o funciones lambda en infraestructuras serverless.</li>
+
+
+
+<li>Establecer un tamaño máximo de datos en todos los parámetros entrantes. Por ejemplo, el número máximo de elementos en arrays o el tamaño máximo de los archivos de carga.</li>
+
+
+
+<li>Estipular un límite a la frecuencia con la que un cliente puede interactuar con la API.</li>
+
+
+
+<li>Asegurarse de que la limitación de velocidad vaya en consonancia con las necesidades y objetivos empresariales.</li>
+
+
+
+<li>Limitar el número de veces o la frecuencia con la que un único usuario de la API puede ejecutar una única operación.</li>
+
+
+
+<li>Añadir una validación del lado del servidor para los parámetros especialmente relacionados con el número de registros devueltos.</li>
+
+
+
+<li>Configurar límites de gasto para todos los proveedores de servicios o establecer alertas de facturación.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">2.5. Autorización rota a nivel de función</h3>
+
+
+
+<p>El quinto puesto del&nbsp;<strong>Top 10 de seguridad API</strong>&nbsp;lo ocupa la&nbsp;<strong>autorización rota a nivel de función</strong>. Para detectar esta clase de problemas, OWASP sostiene que se ha de llevar a cabo un análisis en profundidad del mecanismo de autorización, teniendo en cuenta la jerarquía de los usuarios y los roles y grupos existentes. El objetivo de este análisis es descubrir si:</p>
+
+
+
+<ul>
+<li>Un usuario normal puede acceder a endpoints administrativos.</li>
+
+
+
+<li>A pesar de no tener acceso, un usuario puede realizar acciones sensibles cambiando el método HTTP.</li>
+
+
+
+<li>Un usuario de un determinado grupo puede acceder a una función a la que solo deberían tener acceso los usuarios de otro grupo, porque ha sido capaz de adivinar la URL del endpoint y los parámetros.</li>
+</ul>
+
+
+
+<p>Mediante la explotación de esta vulnerabilidad, los actores hostiles pueden acceder a funciones no autorizadas, en especial, a las funciones administrativas. Más allá de la exfiltración, eliminación y corrupción de los datos, los agresores pueden llegar a<strong>&nbsp;interrumpir el servicio</strong>, lo que conllevaría graves consecuencias económicas.</p>
+
+
+
+<h4 class="wp-block-heading">2.5.1. Prevención</h4>
+
+
+
+<p>El&nbsp;<strong>Top 10 de seguridad API de OWASP</strong>&nbsp;hace hincapié en que la mejor forma para evitar esta vulnerabilidad es contando con un módulo de autorización consistente y fácilmente analizable. El mecanismo de autorización debe denegar el acceso por defecto y realizar concesiones explícitas a usuarios específicos para acceder a cada función.</p>
+
+
+
+<p>Asimismo, este documento recomienda&nbsp;<strong>revisar los endpoints de API para detectar defectos de autorización a nivel de función</strong>, teniendo en cuenta siempre los objetivos de negocio. También resulta fundamental asegurarse de que:</p>
+
+
+
+<ul>
+<li>Todos los controladores administrativos realicen comprobaciones de autorización basadas en el grupo y rol de cada usuario.</li>
+
+
+
+<li>Las funciones administrativas dentro de un controlador normal también implementen comprobaciones de autorización basadas en el grupo y rol de los usuarios.</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" src="/wp-content/uploads/2023/08/642cded03cd67.jpeg" alt="" class="wp-image-967" style="object-fit:cover;width:697px;height:474px" width="697" height="474"/></figure>
+
+
+
+<div style="height:38px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">2.6. Acceso sin restricciones a flujos empresariales sensibles</h3>
+
+
+
+<p>OWASP señala que cuando se crea un endpoint de API, se expone un flujo de negocio y es fundamental entender que hay&nbsp;<strong>flujos de negocio</strong>&nbsp;más sensibles que otros y el acceso excesivo a ellos puede resultar perjudicial para la empresa.</p>
+
+
+
+<p>¿De qué flujos de negocio estamos hablando? Ejemplos de estos flujos pueden ser los de compra de un producto, el de publicación de comentarios o el de reservas.</p>
+
+
+
+<p>¿Cuándo se considera que el endpoint de API es vulnerable? Cuando<strong>&nbsp;expone un flujo de negocio sensible sin contar con mecanismos que restrinjan el acceso</strong>&nbsp;de forma adecuada.</p>
+
+
+
+<p>Los actores hostiles han de comprender el modelo de negocio respaldado por la API para buscar los flujos de negocio más sensibles e intentar acceder a ellos para dañar la actividad empresarial.</p>
+
+
+
+<p>El impacto de la explotación de esta vulnerabilidad no es técnico, pero puede ser muy perjudicial para la empresa, afectando a su actividad, por ejemplo,&nbsp;<strong>impidiendo a los consumidores legítimos comprar un producto</strong>&nbsp;o realizar una reserva porque un atacante haya podido agotar el stock mediante un proceso automático.</p>
+
+
+
+<h4 class="wp-block-heading">2.6.1. Prevención</h4>
+
+
+
+<p>La mitigación de esta vulnerabilidad debe acometerse tanto desde el punto de vista del negocio, como en lo relacionado a la ingeniería, para&nbsp;<strong>proteger los flujos empresariales</strong>&nbsp;y subsanar las debilidades.</p>
+
+
+
+<p>OWASP recomienda para hacer frente con éxito a las amenazas automatizadas:</p>
+
+
+
+<ul>
+<li>Implementar la huella digital de dispositivos. Denegar el servicio a dispositivos cliente inesperados.</li>
+
+
+
+<li>Mejorar la detección humana, empleando captchas o biometría.</li>
+
+
+
+<li>Detectar patrones no humanos estudiando el flujo de los usuarios.</li>
+
+
+
+<li>Bloquear direcciones IP de nodos de salida de Tor y proxies conocidos.</li>
+
+
+
+<li>Proteger y limitar el acceso a las API que consumen directamente las máquinas.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">2.7. Falsificación de peticiones del lado del servidor</h3>
+
+
+
+<p>El documento de OWASP señala que los problemas de falsificación de peticiones del lado del servidor tienen lugar cuando una API conecta a un recurso remoto sin validar la URL que proporciona el usuario. De esta forma, el actor hostil coacciona a la aplicación para que esta envíe una solicitud manipulada a un destino inesperado.</p>
+
+
+
+<p>Para explotar esta vulnerabilidad, los atacantes deben<strong>&nbsp;encontrar un endpoint de API que acceda a una URL proporcionada por el cliente</strong>. ¿Qué se logra mediante la explotación? Se puede conseguir una enumeración de servicios internos, obtener información, o eludir cortafuegos y otros mecanismos de seguridad, ya que el atacante se aprovecha de la posición privilegiada del servidor en la infraestructura para forzar peticiones arbitrarias.</p>
+
+
+
+<p>El Top 10 de seguridad API alerta, además, de que en algunos casos la explotación de esta vulnerabilidad puede permitir lanzar ataques DoS o&nbsp;<strong>abrir la puerta a que el servidor sea empleado como proxy</strong>&nbsp;de cara a ocultar otras actuaciones maliciosas.</p>
+
+
+
+<h4 class="wp-block-heading">2.7.1. Prevención</h4>
+
+
+
+<p>De cara a evitar esta clase de problemas, OWASP recomienda:</p>
+
+
+
+<ul>
+<li>Aislar el mecanismo de obtención de recursos en la red.</li>
+
+
+
+<li>Establecer listas de permitidos:
+<ul>
+<li>Orígenes remotos de los que los usuarios pueden descargarse recursos.</li>
+
+
+
+<li>Esquemas de URL y puertos.</li>
+
+
+
+<li>Medios que son aceptados para una funcionalidad concreta.</li>
+</ul>
+</li>
+
+
+
+<li>Desactivar las redirecciones HTTP.</li>
+
+
+
+<li>Utilizar un analizador de URL para evitar incoherencias en su análisis.</li>
+
+
+
+<li>Validar y sanear los datos de entrada que proporcionan los clientes.</li>
+
+
+
+<li>No enviar respuestas sin procesar.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">2.8. Incorrecta configuración de la seguridad</h3>
+
+
+
+<p>¿Qué significa que una API presente una incorrecta configuración de seguridad? Según el&nbsp;<strong>Top 10 de seguridad API de OWASP</strong>&nbsp;esta situación se produce cuando:</p>
+
+
+
+<ul>
+<li>La&nbsp;<strong>API no está correctamente securizada en toda su pila</strong>&nbsp;o existen permisos mal configurados en los servicios en la nube.</li>
+
+
+
+<li>Faltan los últimos parches de seguridad o los sistemas están obsoletos.</li>
+
+
+
+<li>Se activan funciones innecesarias.</li>
+
+
+
+<li>Se registran discrepancias en la forma en que los servidores procesan las solicitudes entrantes en la cadena de servidores HTTP.</li>
+
+
+
+<li>Falta la Transport Layer Security (TLS).</li>
+
+
+
+<li>No se procede a enviar las directivas de seguridad o control de caché a los clientes de la API.</li>
+
+
+
+<li>Bien no existe una política de uso compartido de recursos de origen cruzado o dicha política no se ha configurado de la forma adecuada.</li>
+
+
+
+<li>Los mensajes de error exponen información sensible.</li>
+</ul>
+
+
+
+<p>OWASP alerta de que los ciberdelincuentes intentan aprovecharse de todos estos fallos que no han sido subsanados. Además, los problemas de configuración de la seguridad pueden producirse en cualquier nivel de la API y no solo pueden ser explotados para exponer datos sensibles sobre los usuarios de un software, sino que los actores hostiles pueden llegar a&nbsp;<strong>comprometer el servidor</strong>.</p>
+
+
+
+<h4 class="wp-block-heading">2.8.1. Prevención</h4>
+
+
+
+<p>Para prevenir problemas relacionados con una&nbsp;<strong>mala configuración de la seguridad de una API</strong>&nbsp;es fundamental protegerla a lo largo de su ciclo de vida:</p>
+
+
+
+<ul>
+<li>Poner en marcha un proceso de hardening en el ciclo de vida del despliegue, que sirva para aplicar un entorno debidamente blindado.</li>
+
+
+
+<li>Revisar y actualizar las configuraciones de la API, incluyendo archivos de orquestación, componentes y servicios en la nube.</li>
+
+
+
+<li>Automatizar la evaluación de la configuración y los ajustes en todos los entornos, para que dicho análisis pueda realizarse de forma continua.</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-full is-resized"><img decoding="async" src="/wp-content/uploads/2023/08/cyber-security-article.jpg" alt="" class="wp-image-968" style="object-fit:cover;width:697px;height:474px" width="697" height="474"/></figure>
+
+
+
+<div style="height:35px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h3 class="wp-block-heading">2.9. Gestión inadecuada del inventario</h3>
+
+
+
+<p>El penúltimo puesto del&nbsp;<strong>Top 10 de seguridad API</strong>&nbsp;lo ocupa la gestión del inventario. Las empresas no solo tienen que conocer a la precisión sus propias API, sino que también deben saber cómo las API almacenan datos de terceros o comparten información con ellos. De lo contrario se pueden encontrar con dos tipos de puntos ciegos:</p>
+
+
+
+<ul>
+<li><strong>Punto ciego de documentación</strong>. No se sabe, por ejemplo, en qué entorno se ejecuta una API o qué versión se está ejecutando, ni se dispone de un inventario del host, o el que existe está desactualizado.</li>
+
+
+
+<li><strong>Punto ciego de flujo de datos</strong>. La API comparte datos sensibles con un tercero sin justificación o aprobación empresarial. No existe un inventario del flujo de datos o no se puede visualizar de forma profunda qué datos sensibles se comparten.</li>
+</ul>
+
+
+
+<p>Inventariar los flujos de datos sensibles es esencial a la hora de responder ante un incidente cuando este se produce del lado de un tercero.</p>
+
+
+
+<h4 class="wp-block-heading">2.9.1. Prevención</h4>
+
+
+
+<p>El&nbsp;<strong>Top 10 de seguridad API de OWASP</strong>&nbsp;recomienda a las organizaciones:</p>
+
+
+
+<ul>
+<li>Realizar un inventario de todos los hosts de API, detallando el entorno de la API, la versión y quién tiene acceso de red al host.</li>
+
+
+
+<li>Inventariar los servicios integrados, indicando su función en el sistema, su flujo de datos y su nivel de sensibilidad.</li>
+
+
+
+<li>Documentar todos los aspectos de la API: autenticación, errores, redirecciones, límite de velocidad…</li>
+
+
+
+<li>Automatizar la generación de documentación mediante el uso de estándares.</li>
+
+
+
+<li>La documentación ha de estar a disposición de las personas autorizadas para usarla.</li>
+
+
+
+<li>Contar con servicios de ciberseguridad para proteger todas las versiones expuestas de una API.</li>
+
+
+
+<li>No emplear datos de producción con despliegues de API que no son de producción.</li>
+
+
+
+<li>Si se incorporan mejoras de seguridad a las nuevas versiones de una API, se debe realizar un análisis de riesgos e informar de las medidas que se deben tomar con respecto a las versiones anteriores. Estableciendo si se pueden implementar estas medidas o si, en cambio, los clientes deben dar el salto a la última versión.</li>
+</ul>
+
+
+
+<h3 class="wp-block-heading">2.10. Consumo inseguro de API</h3>
+
+
+
+<p>Muchos desarrolladores tienden a confiar en las API de terceros, sobre todo si los proveedores son empresas conocidas y avaladas por su trayectoria. Esto se traduce en que las normas de seguridad que adoptan son más débiles en aspectos clave como la autenticación, la autorización la seguridad del transporte o la validación de las entradas. Este punto está relacionado con la&nbsp;<strong><a href="https://www.tarlogic.com/es/blog/ataques-de-cadena-de-suministro/" target="_blank" rel="noreferrer noopener">gestión de la seguridad en la cadena de suministro</a></strong>&nbsp;(<em>supply chain</em>).</p>
+
+
+
+<p>La&nbsp;<strong>vulnerabilidad de consumo inseguro de API</strong>&nbsp;se manifiesta cuando:</p>
+
+
+
+<ul>
+<li>Una API interactúa con otras a través de un canal no cifrado.</li>
+
+
+
+<li>No se validan ni sanean los datos obtenidos de otras API antes de procesarlos y trasladarlos a componentes de la API.</li>
+
+
+
+<li>Se siguen ciegamente las redirecciones.</li>
+
+
+
+<li>No se limitan los recursos que se pueden emplear para procesar respuestas de servicios de terceros.</li>
+
+
+
+<li>No se implementan tiempos de espera en las interacciones con servicios de terceros.</li>
+</ul>
+
+
+
+<p>OWASP hace hincapié en que, para poder explotar esta vulnerabilidad, los actores hostiles necesitan saber con qué API está integrada la API objetivo e, incluso, comprometerlas. Si la explotación es exitosa, los delincuentes pueden obtener información sensible y&nbsp;<strong>ejecutar ataques de inyección</strong>&nbsp;y DoS.</p>
+
+
+
+<h4 class="wp-block-heading">2.10.1. Prevención</h4>
+
+
+
+<p>El ranking de OWASP plantea tres acciones para evitar los problemas ligados a un consumo inseguro de otras API:</p>
+
+
+
+<ul>
+<li>Tener en cuenta la estrategia de seguridad con respecto a las API de los proveedores de servicios.</li>
+
+
+
+<li>Tomar las medidas necesarias para que las interacciones de la API se lleven a cabo a través de un canal de comunicación seguro (TLS). Antes de emplear los datos que se reciben a través de otras API es necesario validarlos y sanearlos.</li>
+
+
+
+<li>No seguir ciegamente las redirecciones, para ello se ha de contar con una lista de ubicaciones conocidas a las que las API integradas pueden redirigir a la API de la organización.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">3. El Top 10 de seguridad API evidencia la importancia de las auditorías de seguridad</h2>
+
+
+
+<p>A lo largo del apartado anterior no solo listamos las principales vulnerabilidades a las que tienen que hacer frente los desarrolladores y las organizaciones que disponen de API, sino que también hicimos referencia a las medidas que se pueden poner en marcha para&nbsp;<strong>fortalecer estos activos críticos</strong>&nbsp;de una infraestructura IT.</p>
+
+
+
+<p>Todas las medidas recogidas en el&nbsp;<strong>Top 10 de seguridad API de OWASP</strong>&nbsp;ponen en valor la importancia de que las organizaciones realicen&nbsp;<a href="https://www.tarlogic.com/es/auditoria-seguridad-web/" target="_blank" rel="noreferrer noopener"><strong>auditorías de seguridad web</strong></a>&nbsp;que analicen de forma continua las API para identificar vulnerabilidades y mitigarlas antes de que sean explotadas por actores hostiles y se produzcan incidentes de seguridad.</p>
+
+
+
+<p>La&nbsp;<strong>auditoría de seguridad web</strong>&nbsp;que prestan los profesionales de&nbsp;<strong>Tarlogic Security</strong>&nbsp;sirve para:</p>
+
+
+
+<ul>
+<li>Identificar vulnerabilidades relacionadas con la infraestructura de los servidores web.</li>
+
+
+
+<li>Detectar vulnerabilidades de aplicación, procediendo a verificar toda clase de inyecciones y técnicas sobre sus puntos de entrada.</li>
+
+
+
+<li><strong>Realizar pruebas de seguridad específicas para múltiples tipos de activos</strong>, entre los que ocupan un lugar preponderante las API.</li>
+
+
+
+<li>Identificar vulnerabilidades relacionadas con el uso de software, así como con la lógica de negocio de la aplicación.</li>
+</ul>
+
+
+
+<p>En definitiva, las API han revolucionado el desarrollo de aplicaciones, reduciendo los plazos, abaratando los costes y facilitando la producción de software escalable y flexible. De ahí que ocupen, en la actualidad, un papel central en la digitalización de la vida de las personas y las empresas.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/seguridad-api-asi-es-el-top-10-de-riesgos-de-owasp/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">965</post-id>	</item>
+		<item>
+		<title>CVE-2023-3519: Vulnerabilidad 0-day explotada de manera activa en Citrix NetScaler</title>
+		<link>/cve-2023-3519-vulnerabilidad-0-day-explotada-de-manera-activa-en-citrix-netscaler/</link>
+					<comments>/cve-2023-3519-vulnerabilidad-0-day-explotada-de-manera-activa-en-citrix-netscaler/#respond</comments>
+		
+		<dc:creator><![CDATA[oyshopadmin]]></dc:creator>
+		<pubDate>Thu, 31 Aug 2023 03:00:34 +0000</pubDate>
+				<category><![CDATA[Vulnerabilidades]]></category>
+		<guid isPermaLink="false">/?p=962</guid>
+
+					<description><![CDATA[El 18 de julio de 2023, Citrix publicó la información y actualizaciones para solucionar una&#160;vulnerabilidad crítica (CVE-2023-3519) en NetScaler ADC y NetScaler Gateway. La brecha de seguridad permite la ejecución de código remoto no autenticado en los sistemas afectados. Además, en las actualizaciones se parchean otras dos&#160;vulnerabilidades de Cross-Site-Scripting (CVE-2023-3466) y elevación de privilegios (CVE-2023-3467). &#8230;<p class="read-more"> <a class="" href="/cve-2023-3519-vulnerabilidad-0-day-explotada-de-manera-activa-en-citrix-netscaler/"> <span class="screen-reader-text">CVE-2023-3519: Vulnerabilidad 0-day explotada de manera activa en Citrix NetScaler</span> Leer más &#187;</a></p>]]></description>
+										<content:encoded><![CDATA[
+<blockquote class="wp-block-quote">
+<p>El 18 de julio de 2023, Citrix publicó la información y actualizaciones para solucionar una&nbsp;<strong>vulnerabilidad crítica (CVE-2023-3519) en NetScaler ADC y NetScaler Gateway</strong>. La brecha de seguridad permite la ejecución de código remoto no autenticado en los sistemas afectados.</p>
+</blockquote>
+
+
+
+<p>Además, en las actualizaciones se parchean otras dos&nbsp;<strong>vulnerabilidades de Cross-Site-Scripting (CVE-2023-3466) y elevación de privilegios (CVE-2023-3467)</strong>.</p>
+
+
+
+<p>Citrix NetScaler ADC es un Application Delivery Controller creado para optimizar, gestionar y proteger el tráfico de red de Capa 4 a Capa 7 (L4-L7).</p>
+
+
+
+<p>Aunque no se han publicado detalles concretos acerca de la vulnerabilidad, se ha podido saber que está siendo explotada de manera activa, por lo que la actualización de los activos afectados es urgente.</p>
+
+
+
+<h2 class="wp-block-heading">Características principales de la CVE-2023-3519</h2>
+
+
+
+<p>A continuación, se recogen las características principales de la&nbsp;<strong>vulnerabilidad CVE-2023-3519</strong>:</p>
+
+
+
+<ul>
+<li><strong>Identificador</strong>&nbsp;CVE: CVE-2023-3519</li>
+
+
+
+<li><strong>Valor CVSS</strong>: 9.8 (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H)</li>
+
+
+
+<li><strong>Fecha de publicación</strong>: 18/07/2023</li>
+
+
+
+<li><strong>Software afectado</strong>: NetScaler ADC y NetScaler Gateway</li>
+
+
+
+<li><strong>Versiones afectadas</strong>:
+<ul>
+<li>NetScaler ADC y NetScaler Gateway 13.1 antes de 13.1-49.13</li>
+
+
+
+<li>NetScaler ADC y NetScaler Gateway 13.0 antes de 13.0-91.13</li>
+
+
+
+<li>NetScaler ADC 13.1-FIPS antes de 13.1-37.159</li>
+
+
+
+<li>NetScaler ADC 12.1-FIPS antes de 12.1-55.297</li>
+
+
+
+<li>NetScaler ADC 12.1-NDcPP antes de 12.1-55.297</li>
+</ul>
+</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Mitigación</h2>
+
+
+
+<p>El fabricante ha publicado un&nbsp;<a href="https://support.citrix.com/article/CTX561482/citrix-adc-and-citrix-gateway-security-bulletin-for-cve20233519-cve20233466-cve20233467" target="_blank" rel="noreferrer noopener">comunicado oficial</a>&nbsp;recomendando actualizar el software a cualquier versión soportada:</p>
+
+
+
+<ul>
+<li>NetScaler ADC y NetScaler Gateway 13.1-49.13 y versiones posteriores.</li>
+
+
+
+<li>NetScaler ADC y NetScaler Gateway 13.0-91.13 y versiones posteriores de 13.0.</li>
+
+
+
+<li>NetScaler ADC 13.1-FIPS 13.1-37.159 y versiones posteriores de 13.1-FIPS .</li>
+
+
+
+<li>NetScaler ADC 12.1-FIPS 12.1-55.297 y versiones posteriores de 12.1-FIPS .</li>
+</ul>
+
+
+
+<p>¡Importante! No hay parches para NetScaler (Citrix ADC) versión 12.1 o anterior. Estos sistemas han alcanzado su fin de ciclo de vida y por lo tanto su parcheo no será realizado. En este caso, se debe actualizar a la última versión 13.0 o 13.1.</p>
+
+
+
+<h2 class="wp-block-heading">Indicadores de compromiso</h2>
+
+
+
+<p>Dado que se ha detectado su explotación de manera activa, se han publicado ciertos indicadores de compromiso para ayudar a detectar posibles intrusiones:</p>
+
+
+
+<ul>
+<li>Direcciones IP de origen:
+<ul>
+<li>216.41.162.172</li>
+
+
+
+<li>216.51.171.17</li>
+</ul>
+</li>
+</ul>
+
+
+
+<p>Además, de manera no oficial se ha publicado una&nbsp;<a href="https://www.deyda.net/index.php/en/2023/07/19/checklist-for-citrix-adc-cve-2023-3519/" target="_blank" rel="noreferrer noopener">guía preliminar</a>&nbsp;para poder investigar posibles intrusiones.</p>
+
+
+
+<h2 class="wp-block-heading">Detección de la vulnerabilidad</h2>
+
+
+
+<p>No se han compartido detalles de la explotación de la&nbsp;<strong>vulnerabilidad CVE-2023-3519</strong>. Por ello, solamente es posible confiar en el número de versión reportado por la aplicación para comprobar si una instancia es vulnerable.</p>
+
+
+
+<p>Como parte del&nbsp;<a href="https://www.tarlogic.com/es/vulnerabilidades-emergentes/" target="_blank" rel="noreferrer noopener">servicio de vulnerabilidades emergentes</a>,&nbsp;<strong>Tarlogic Security</strong>&nbsp;monitoriza proactivamente el perímetro de sus clientes para informar, detectar y notificar la presencia de esta vulnerabilidad, así como otras amenazas críticas que pudiesen tener un impacto severo en la seguridad.</p>
+
+
+
+<p><strong>Referencias</strong></p>
+
+
+
+<ul>
+<li><a href="https://www.helpnetsecurity.com/2023/07/19/cve-2023-3519/" target="_blank" rel="noreferrer noopener">https://www.helpnetsecurity.com/2023/07/19/cve-2023-3519/</a></li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>/cve-2023-3519-vulnerabilidad-0-day-explotada-de-manera-activa-en-citrix-netscaler/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">962</post-id>	</item>
+	</channel>
+</rss>

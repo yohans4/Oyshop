@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	>
+
+<channel>
+	<title>TARJETAS GRÁFICAS</title>
+	<atom:link href="/categoria-producto/tarjetas-graficas/feed/" rel="self" type="application/rss+xml" />
+	<link>/</link>
+	<description>Tienda online de componentes electrónicos</description>
+	<lastBuildDate>Wed, 15 Nov 2023 15:43:24 +0000</lastBuildDate>
+	<language>es</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
+
+<image>
+	<url>/wp-content/uploads/2023/08/cropped-LOGO-2-1-32x32.png</url>
+	<title>TARJETAS GRÁFICAS</title>
+	<link>/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+<site xmlns="com-wordpress:feed-additions:1">222906673</site>	<item>
+		<title>TARJETA DE VIDEO NVIDIA GEFORCE GIGABYTE RTX 3050 GAMING 3X WINFORCE RGB 8 GIGAS</title>
+		<link>/producto/piorro-quisquam/</link>
+					<comments>/producto/piorro-quisquam/#respond</comments>
+		
+		<dc:creator><![CDATA[oyshopadmin]]></dc:creator>
+		<pubDate>Wed, 23 Jan 2019 13:18:02 +0000</pubDate>
+				<guid isPermaLink="false">/producto/piorro-quisquam/</guid>
+
+					<description><![CDATA[El sistema de refrigeración WINDFORCE 3X cuenta con 3 ventiladores de hoja exclusivos de 80 mm, giro alternativo, 2 tubos de calor de cobre compuestos GPU táctiles directos, ventilador activo 3D y refrigeración de pantalla, que juntos proporcionan una disipación de calor de alta]]></description>
+										<content:encoded><![CDATA[<p>El giro alternativo puede reducir la turbulencia de los ventiladores adyacentes y aumentar la presión del aire.</p>
+<p>GIGABYTE gira los ventiladores adyacentes en la dirección opuesta, de modo que la dirección del flujo de aire entre los dos ventiladores sea la misma, lo que reduce la turbulencia y mejora la presión del flujo de aire.</p>
+<p>El nano lubricante de grafeno puede prolongar la vida útil del ventilador con cojinete de manguito en 2,1 veces, cerca de la vida útil del cojinete de bolas doble, y es más silencioso.</p>
+<p>El diseño extendido del disipador de calor permite el paso del flujo de aire, proporcionando una mejor disipación del calor. La forma del tubo de calor de cobre puro maximiza el área de contacto directo con la GPU. Con 16,7 millones de opciones de color personalizables y numerosos efectos de iluminación, puede elegir efectos de iluminación o sincronizarlos con otros dispositivos AORUS.</p>
+<p>La placa posterior de metal no solo brinda una forma estética, sino que también mejora la estructura de la tarjeta gráfica para brindar una protección completa.</p>
+<p>Al experimentar cualquier anomalía en la fuente de alimentación, el indicador alertará a los jugadores con una luz intermitente.</p>
+<p>La tarjeta gráfica utiliza un mejor diseño de fase de potencia para permitir que el MOSFET funcione a una temperatura más baja, y un diseño de protección contra sobretemperatura y equilibrio de carga para cada MOSFET, además de los condensadores y estranguladores certificados Ultra Durable, para proporcionar un rendimiento excelente y una vida útil más larga del sistema.</p>
+<p>El proceso de producción totalmente automatizado garantiza la máxima calidad de las placas de circuito y elimina las protuberancias afiladas de los conectores de soldadura que se ven en la superficie de la placa de circuito impreso convencional. Este diseño amigable evita que sus manos se corten o dañen los componentes sin darse cuenta al hacer su construcción.</p>
+<p>La interfaz intuitiva de vanguardia le permite ajustar la velocidad del reloj, el voltaje, el rendimiento del ventilador y el objetivo de potencia en tiempo real de acuerdo con los requisitos de su juego.</p>
+<p>&nbsp;</p>
+<div class="aux-row aux-col3 aux-tb-col2 aux-mb-col1">
+<div class="aux-col">
+<p><strong>Procesamiento de gráficos:</strong> GeForce RTX<img src="https://s.w.org/images/core/emoji/14.0.0/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 3050</p>
+</div>
+<div class="aux-col">
+<p><strong>Reloj de núcleo:</strong> 1822 MHz (Tarjeta de referencia: 1777 MHz)</p>
+</div>
+<div class="aux-col">
+<p><strong>Núcleos CUDA</strong>: 2560</p>
+</div>
+<div class="aux-col">
+<p><strong>Reloj de la memoria:</strong> 14000 MHz</p>
+</div>
+<div class="aux-col">
+<p><strong>Tamaño de la memoria:</strong> 8GB</p>
+</div>
+<div class="aux-col">
+<p><strong>Tipo de memoria:</strong> GDDR6</p>
+</div>
+<div class="aux-col">
+<p><strong>Bus de memoria:</strong> 128 bits</p>
+</div>
+<div class="aux-col">
+<p><strong>Ancho de banda de memoria (GB/seg):</strong> 224 GB/s</p>
+</div>
+<div class="aux-col">
+<p><strong>Tarjeta de autobús:</strong> PCI-E 4.0</p>
+</div>
+<div class="aux-col">
+<p><strong>Resolución máxima digital:</strong> 7680×4320</p>
+</div>
+<div class="aux-col">
+<p><strong>Vista múltiple</strong>: 4</p>
+</div>
+<div class="aux-col">
+<p><strong>Tamaño de la tarjeta:</strong> Largo=282 Ancho=117 Alto=41 mm</p>
+</div>
+</div>
+]]></content:encoded>
+					
+					<wfw:commentRss>/producto/piorro-quisquam/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">83</post-id>	</item>
+	</channel>
+</rss>
